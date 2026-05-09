@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "UK Energy Consumption Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "cdfa2f9e-c2d7-44fc-9ae0-c8a34dafe3a2"
+  }
+}

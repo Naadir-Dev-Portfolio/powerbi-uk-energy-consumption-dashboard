@@ -1,0 +1,30 @@
+table 'Dim Electricity Profile'
+	lineageTag: 1b22ab1e-0e16-4ea9-9402-eb3a07acc4ff
+
+	column ElectricityProfile
+		dataType: string
+		isKey
+		lineageTag: b0042d58-98d9-4659-b1e1-2355416be785
+		summarizeBy: none
+		sourceColumn: ElectricityProfile
+		sortByColumn: ProfileSort
+
+	column ProfileSort
+		dataType: int64
+		lineageTag: 1fb74187-10d8-4602-9539-48778935bf9a
+		summarizeBy: none
+		sourceColumn: ProfileSort
+
+	partition 'Dim Electricity Profile' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\dim_electricity_profile.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"ElectricityProfile", type text},
+						{"ProfileSort", Int64.Type}
+					}, "en-GB")
+				in
+					Typed
+

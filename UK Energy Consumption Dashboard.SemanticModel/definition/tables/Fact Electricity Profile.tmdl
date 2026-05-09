@@ -1,0 +1,162 @@
+table 'Fact Electricity Profile'
+	lineageTag: 0410555f-51d7-44f1-bc90-e14159743d47
+
+	measure 'Profile Consumption GWh' = SUM('Fact Electricity Profile'[ConsumptionGWh])
+		formatString: #,##0.0
+		lineageTag: d04e0d25-07f7-4ce4-85b3-9b5d81e90e76
+
+	measure 'Profile Meter Count' = SUM('Fact Electricity Profile'[Meters])
+		formatString: #,##0
+		lineageTag: 4da6d019-4121-4584-b6a8-558b43e31798
+
+	measure 'Profile Mean kWh per meter' = DIVIDE([Profile Consumption GWh] * 1000000, [Profile Meter Count])
+		formatString: #,##0
+		lineageTag: 93f86267-ea51-4615-b3cf-bafa6a5decb4
+
+	measure 'Profile Latest Consumption GWh' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    CALCULATE(
+			        [Profile Consumption GWh],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[YearKey] = LatestYear
+			    )
+		formatString: #,##0.0
+		lineageTag: 4b8b09eb-985d-42c3-9870-17d8d85e6ae4
+
+	measure 'Great Britain Standard Domestic GWh' =
+			CALCULATE(
+			    [Profile Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Electricity Profile'),
+			    'Dim Electricity Profile'[ElectricityProfile] = "Standard domestic"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: ab6426a0-f5a4-4e38-b07d-0954f6b343ab
+
+	measure 'Great Britain Economy 7 Domestic GWh' =
+			CALCULATE(
+			    [Profile Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Electricity Profile'),
+			    'Dim Electricity Profile'[ElectricityProfile] = "Economy 7 domestic"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 2870681e-6a4f-45f7-bd5e-a364d1e82a54
+
+	measure 'Great Britain Latest Standard Domestic GWh' =
+			CALCULATE(
+			    [Profile Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Electricity Profile'),
+			    'Dim Electricity Profile'[ElectricityProfile] = "Standard domestic"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 643c9872-b693-414a-bad4-d2f091d36957
+
+	measure 'Great Britain Latest Economy 7 Domestic GWh' =
+			CALCULATE(
+			    [Profile Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Electricity Profile'),
+			    'Dim Electricity Profile'[ElectricityProfile] = "Economy 7 domestic"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 6b8c3555-9ed9-4d51-87c6-7f5b9d42e3b4
+
+	column YearKey
+		dataType: int64
+		isHidden
+		lineageTag: addf0c79-e3bf-40a7-a66e-8cf2cf55959e
+		summarizeBy: none
+		sourceColumn: YearKey
+
+	column GeographyKey
+		dataType: string
+		isHidden
+		lineageTag: 7de0956f-229d-4b01-a3d5-927266504097
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column ElectricityProfile
+		dataType: string
+		isHidden
+		lineageTag: 2403fc1d-7e8c-4431-a325-e8ce7a04670e
+		summarizeBy: none
+		sourceColumn: ElectricityProfile
+
+	column MetersThousands
+		dataType: double
+		lineageTag: d6244f9b-7952-4d95-822c-221dd72efb8c
+		summarizeBy: none
+		sourceColumn: MetersThousands
+
+	column Meters
+		dataType: double
+		lineageTag: f3610529-f0e2-48b6-9c59-e046f0edb1cc
+		summarizeBy: none
+		sourceColumn: Meters
+
+	column ConsumptionGWh
+		dataType: double
+		lineageTag: cfd464c0-4e39-4c95-871f-363c480e74cb
+		summarizeBy: none
+		sourceColumn: ConsumptionGWh
+
+	column ConsumptionKWh
+		dataType: double
+		lineageTag: 245322f7-cb4c-431b-b68e-5c24e4ad61df
+		summarizeBy: none
+		sourceColumn: ConsumptionKWh
+
+	column MeanKWhPerMeter
+		dataType: double
+		lineageTag: 602aec1e-be0f-4154-bea2-10c672edb764
+		summarizeBy: none
+		sourceColumn: MeanKWhPerMeter
+
+	column MedianKWhPerMeter
+		dataType: double
+		lineageTag: 313db935-90f6-4316-8948-19463f72e406
+		summarizeBy: none
+		sourceColumn: MedianKWhPerMeter
+
+	column SourceGranularity
+		dataType: string
+		lineageTag: 1c304baf-551a-46b0-9c1e-5481e7395866
+		summarizeBy: none
+		sourceColumn: SourceGranularity
+
+	partition 'Fact Electricity Profile' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\fact_electricity_profile.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"YearKey", Int64.Type},
+						{"GeographyKey", type text},
+						{"ElectricityProfile", type text},
+						{"MetersThousands", type number},
+						{"Meters", type number},
+						{"ConsumptionGWh", type number},
+						{"ConsumptionKWh", type number},
+						{"MeanKWhPerMeter", type number},
+						{"MedianKWhPerMeter", type number},
+						{"SourceGranularity", type text}
+					}, "en-GB")
+				in
+					Typed
+

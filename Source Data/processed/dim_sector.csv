@@ -1,0 +1,4 @@
+Sector,SectorSort,CountsInAdditiveTotal
+Domestic,1,True
+Non-domestic,2,True
+All,3,False

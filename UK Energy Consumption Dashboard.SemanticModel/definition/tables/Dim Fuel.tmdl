@@ -1,0 +1,20 @@
+table 'Dim Fuel'
+	lineageTag: 7f1f8311-bb72-41bd-8acf-81117724afa5
+
+	column Fuel
+		dataType: string
+		isKey
+		lineageTag: 6881cbb4-9bae-4b78-97dd-1179c905ec55
+		summarizeBy: none
+		sourceColumn: Fuel
+
+	partition 'Dim Fuel' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\dim_fuel.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {{"Fuel", type text}}, "en-GB")
+				in
+					Typed
+

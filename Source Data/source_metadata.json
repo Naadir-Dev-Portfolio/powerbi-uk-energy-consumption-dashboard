@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Electricity consumption by Local Authority (LA), 2005 to 2024",
+    "fuel": "Electricity",
+    "geography": "Local Authority",
+    "page_url": "https://www.gov.uk/government/statistical-data-sets/stacked-electricity-consumption-statistics-data",
+    "download_url": "https://assets.publishing.service.gov.uk/media/694295bd9273c48f554cf4ef/elec_LA_stacked_2005-2024.csv",
+    "file_name": "elec_LA_stacked_2005-2024.csv",
+    "publisher": "Department for Energy Security and Net Zero",
+    "release_note": "Stacked CSV time series for 2005 to 2024. GOV.UK page last updated 18 December 2025."
+  },
+  {
+    "name": "Electricity consumption by Region, 2005 to 2024",
+    "fuel": "Electricity",
+    "geography": "Region",
+    "page_url": "https://www.gov.uk/government/statistical-data-sets/stacked-electricity-consumption-statistics-data",
+    "download_url": "https://assets.publishing.service.gov.uk/media/6942957636f089d38be1f1f8/elec_region_stacked_2005-2024.csv",
+    "file_name": "elec_region_stacked_2005-2024.csv",
+    "publisher": "Department for Energy Security and Net Zero",
+    "release_note": "Stacked CSV time series for 2005 to 2024. GOV.UK page last updated 18 December 2025."
+  },
+  {
+    "name": "Gas consumption by Local Authority (LA), 2005 to 2024",
+    "fuel": "Gas",
+    "geography": "Local Authority",
+    "page_url": "https://www.gov.uk/government/statistical-data-sets/stacked-gas-consumption-statistics-data",
+    "download_url": "https://assets.publishing.service.gov.uk/media/694579d472075a1d4a508994/gas_LA_stacked_2005-2024.csv",
+    "file_name": "gas_LA_stacked_2005-2024.csv",
+    "publisher": "Department for Energy Security and Net Zero",
+    "release_note": "Stacked CSV time series for 2005 to 2024. GOV.UK page last updated 19 December 2025 after a 2023 non-domestic gas correction."
+  },
+  {
+    "name": "Gas consumption by Region, 2005 to 2024",
+    "fuel": "Gas",
+    "geography": "Region",
+    "page_url": "https://www.gov.uk/government/statistical-data-sets/stacked-gas-consumption-statistics-data",
+    "download_url": "https://assets.publishing.service.gov.uk/media/694579c81a2e540ccd8a542a/gas_region_stacked_2005-2024.csv",
+    "file_name": "gas_region_stacked_2005-2024.csv",
+    "publisher": "Department for Energy Security and Net Zero",
+    "release_note": "Stacked CSV time series for 2005 to 2024. GOV.UK page last updated 19 December 2025 after a 2023 non-domestic gas correction."
+  }
+]

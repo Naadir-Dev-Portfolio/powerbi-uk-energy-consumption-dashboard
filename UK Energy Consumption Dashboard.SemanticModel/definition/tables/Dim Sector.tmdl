@@ -1,0 +1,37 @@
+table 'Dim Sector'
+	lineageTag: 7277eb85-7718-45ae-a152-a350727f148d
+
+	column Sector
+		dataType: string
+		isKey
+		lineageTag: 56b80ff6-11f9-41b8-8249-eb974b39875f
+		summarizeBy: none
+		sourceColumn: Sector
+		sortByColumn: SectorSort
+
+	column SectorSort
+		dataType: int64
+		lineageTag: 9bbc707b-039c-49ec-8a5f-32815e47615a
+		summarizeBy: none
+		sourceColumn: SectorSort
+
+	column CountsInAdditiveTotal
+		dataType: boolean
+		lineageTag: d383b438-f2f6-4085-b18b-e57fabe44230
+		summarizeBy: none
+		sourceColumn: CountsInAdditiveTotal
+
+	partition 'Dim Sector' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\dim_sector.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"Sector", type text},
+						{"SectorSort", Int64.Type},
+						{"CountsInAdditiveTotal", type logical}
+					}, "en-GB")
+				in
+					Typed
+

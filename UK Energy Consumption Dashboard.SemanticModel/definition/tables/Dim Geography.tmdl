@@ -1,0 +1,71 @@
+table 'Dim Geography'
+	lineageTag: fdce6c63-d8fa-4e5c-83ee-dfa6cab11a9e
+
+	column GeographyKey
+		dataType: string
+		isKey
+		lineageTag: 24d5f7ce-95dd-47dd-9577-297d18fd8966
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column GeographyCode
+		dataType: string
+		lineageTag: 29f2217f-c66b-42d7-ba98-96e8eaaae27b
+		summarizeBy: none
+		sourceColumn: GeographyCode
+
+	column GeographyName
+		dataType: string
+		lineageTag: 31faac16-3024-48f3-888b-ddce6230d460
+		summarizeBy: none
+		sourceColumn: GeographyName
+
+	column GeographyLevel
+		dataType: string
+		lineageTag: 69a1b09b-6eda-4c0e-b401-67f75307d2e7
+		summarizeBy: none
+		sourceColumn: GeographyLevel
+
+	column RegionName
+		dataType: string
+		lineageTag: 0845e474-1f86-4762-a37d-431b7d938e46
+		summarizeBy: none
+		sourceColumn: RegionName
+
+	column CountryName
+		dataType: string
+		lineageTag: eb346215-4ecb-4816-bf7a-57e442497624
+		summarizeBy: none
+		sourceColumn: CountryName
+
+	column IsLocalAuthority
+		dataType: boolean
+		lineageTag: 335c78a5-0a13-452f-ac2d-6089d89e0a45
+		summarizeBy: none
+		sourceColumn: IsLocalAuthority
+
+	column IsRegionOrCountry
+		dataType: boolean
+		lineageTag: 15646a41-8d5e-48c1-9209-0dce610e863c
+		summarizeBy: none
+		sourceColumn: IsRegionOrCountry
+
+	partition 'Dim Geography' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\dim_geography.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"GeographyKey", type text},
+						{"GeographyCode", type text},
+						{"GeographyName", type text},
+						{"GeographyLevel", type text},
+						{"RegionName", type text},
+						{"CountryName", type text},
+						{"IsLocalAuthority", type logical},
+						{"IsRegionOrCountry", type logical}
+					}, "en-GB")
+				in
+					Typed
+

@@ -1,0 +1,68 @@
+table 'Dim Date'
+	lineageTag: 966ca163-0be0-4df9-895f-2d9ddfb6c621
+
+	column YearKey
+		dataType: int64
+		isKey
+		lineageTag: ccd25bd9-1558-419f-af91-b649c8b88240
+		summarizeBy: none
+		sourceColumn: YearKey
+
+	column YearStartDate
+		dataType: dateTime
+		formatString: yyyy
+		lineageTag: 3a32bcc3-67ca-4155-bafa-d266958cef76
+		summarizeBy: none
+		sourceColumn: YearStartDate
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column YearLabel
+		dataType: string
+		lineageTag: 982e30f7-c055-4786-9917-f5d585d61825
+		summarizeBy: none
+		sourceColumn: YearLabel
+		sortByColumn: YearSort
+
+	column YearSort
+		dataType: int64
+		lineageTag: 946f7012-8f57-4735-96fa-f1be0ea5a0c6
+		summarizeBy: none
+		sourceColumn: YearSort
+
+	column PeriodGroup
+		dataType: string
+		lineageTag: 47726841-141f-49d4-a75e-84a12615be17
+		summarizeBy: none
+		sourceColumn: PeriodGroup
+
+	column IsLatestYear
+		dataType: boolean
+		lineageTag: e8858e6c-8220-4382-bf88-29154eb1729e
+		summarizeBy: none
+		sourceColumn: IsLatestYear
+
+	column YearsSinceStart
+		dataType: int64
+		lineageTag: 4fe7349f-ecfb-4705-b691-d066eb498dc9
+		summarizeBy: none
+		sourceColumn: YearsSinceStart
+
+	partition 'Dim Date' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\dim_date.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"YearKey", Int64.Type},
+						{"YearStartDate", type date},
+						{"YearLabel", type text},
+						{"YearSort", Int64.Type},
+						{"PeriodGroup", type text},
+						{"IsLatestYear", type logical},
+						{"YearsSinceStart", Int64.Type}
+					}, "en-GB")
+				in
+					Typed
+

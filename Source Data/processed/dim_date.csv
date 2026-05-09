@@ -1,0 +1,21 @@
+YearKey,YearStartDate,YearLabel,YearSort,PeriodGroup,IsLatestYear,YearsSinceStart
+2005,2005-01-01,2005,2005,Pre-2022 baseline,False,0
+2006,2006-01-01,2006,2006,Pre-2022 baseline,False,1
+2007,2007-01-01,2007,2007,Pre-2022 baseline,False,2
+2008,2008-01-01,2008,2008,Pre-2022 baseline,False,3
+2009,2009-01-01,2009,2009,Pre-2022 baseline,False,4
+2010,2010-01-01,2010,2010,Pre-2022 baseline,False,5
+2011,2011-01-01,2011,2011,Pre-2022 baseline,False,6
+2012,2012-01-01,2012,2012,Pre-2022 baseline,False,7
+2013,2013-01-01,2013,2013,Pre-2022 baseline,False,8
+2014,2014-01-01,2014,2014,Pre-2022 baseline,False,9
+2015,2015-01-01,2015,2015,Pre-2022 baseline,False,10
+2016,2016-01-01,2016,2016,Pre-2022 baseline,False,11
+2017,2017-01-01,2017,2017,Pre-2022 baseline,False,12
+2018,2018-01-01,2018,2018,Pre-2022 baseline,False,13
+2019,2019-01-01,2019,2019,Pre-2022 baseline,False,14
+2020,2020-01-01,2020,2020,Pre-2022 baseline,False,15
+2021,2021-01-01,2021,2021,Pre-2022 baseline,False,16
+2022,2022-01-01,2022,2022,Energy price shock,False,17
+2023,2023-01-01,2023,2023,Energy price shock,False,18
+2024,2024-01-01,2024,2024,Latest year,True,19

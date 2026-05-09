@@ -1,0 +1,11 @@
+expression ProjectRoot = "" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 88bd4d86-c9c6-48fd-9c20-d2fd7b9606db
+
+	annotation PBI_ResultType = Text
+
+expression ProcessedDataFolder =
+		if Text.Trim(ProjectRoot) <> "" then
+			ProjectRoot & "\Source Data\processed"
+		else
+			error "Set the ProjectRoot parameter to your local clone path before refreshing the semantic model."
+	lineageTag: aa9d144f-367d-44fa-b589-de5f2b64a301

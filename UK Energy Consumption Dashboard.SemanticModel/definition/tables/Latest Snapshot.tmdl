@@ -1,0 +1,115 @@
+table 'Latest Snapshot'
+	lineageTag: c63c2725-377d-40a6-83aa-f34162eaa0b6
+
+	column YearKey
+		dataType: int64
+		isHidden
+		lineageTag: b9786745-0f6d-4d04-860d-41dfacb583d4
+		summarizeBy: none
+		sourceColumn: YearKey
+
+	column GeographyKey
+		dataType: string
+		isHidden
+		lineageTag: 8ca68236-5eb5-446d-9d87-4ea687ecb7cb
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column GeographyName
+		dataType: string
+		lineageTag: aa043ea5-0611-4898-8846-5018f58234a4
+		summarizeBy: none
+		sourceColumn: GeographyName
+
+	column GeographyLevel
+		dataType: string
+		lineageTag: 1dd2ea18-ce59-42b3-b48e-55f5f8c9fab1
+		summarizeBy: none
+		sourceColumn: GeographyLevel
+
+	column RegionName
+		dataType: string
+		lineageTag: 770252bb-02b7-4b27-be37-7afc3b242959
+		summarizeBy: none
+		sourceColumn: RegionName
+
+	column CountryName
+		dataType: string
+		lineageTag: ad6238e1-9f33-450c-af4f-47ad4f471f52
+		summarizeBy: none
+		sourceColumn: CountryName
+
+	column Fuel
+		dataType: string
+		isHidden
+		lineageTag: 6190b2db-02b9-4f37-a856-aa0ec0f3c6d7
+		summarizeBy: none
+		sourceColumn: Fuel
+
+	column ConsumptionGWh
+		dataType: double
+		lineageTag: 4316d76d-a783-4f2f-af45-43f7e42bc734
+		summarizeBy: none
+		sourceColumn: ConsumptionGWh
+
+	column MeanKWhPerMeter
+		dataType: double
+		lineageTag: d274abfc-f838-4982-bb2b-e7fdb0ddbb1b
+		summarizeBy: none
+		sourceColumn: MeanKWhPerMeter
+
+	column YoYChangePct
+		dataType: double
+		lineageTag: 557cc042-6fe8-44e0-b210-8512018e085f
+		summarizeBy: none
+		sourceColumn: YoYChangePct
+
+	column ChangeSince2021Pct
+		dataType: double
+		lineageTag: 39cdd5e6-a617-43a3-8ec5-2097b7907ff1
+		summarizeBy: none
+		sourceColumn: ChangeSince2021Pct
+
+	column MeanChangeSince2021Pct
+		dataType: double
+		lineageTag: 2aa46cee-2198-4fc1-9f84-b91af930fb8e
+		summarizeBy: none
+		sourceColumn: MeanChangeSince2021Pct
+
+	column TrendSignal
+		dataType: string
+		lineageTag: 50f97999-00ea-4772-be92-4a347fe3698b
+		summarizeBy: none
+		sourceColumn: TrendSignal
+
+	column EfficiencySignal
+		dataType: string
+		lineageTag: 229ee78c-f748-4a3d-be97-84200bca0f9f
+		summarizeBy: none
+		sourceColumn: EfficiencySignal
+
+	partition 'Latest Snapshot' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\latest_snapshot.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"YearKey", Int64.Type},
+						{"GeographyKey", type text},
+						{"GeographyName", type text},
+						{"GeographyLevel", type text},
+						{"RegionName", type text},
+						{"CountryName", type text},
+						{"Fuel", type text},
+						{"ConsumptionGWh", type number},
+						{"MeanKWhPerMeter", type number},
+						{"YoYChangePct", Percentage.Type},
+						{"ChangeSince2021Pct", Percentage.Type},
+						{"MeanChangeSince2021Pct", Percentage.Type},
+						{"TrendSignal", type text},
+						{"EfficiencySignal", type text}
+					}, "en-GB")
+				in
+					Typed
+

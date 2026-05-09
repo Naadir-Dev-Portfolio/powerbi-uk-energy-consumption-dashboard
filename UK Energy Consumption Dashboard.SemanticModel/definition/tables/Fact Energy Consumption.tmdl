@@ -1,0 +1,773 @@
+table 'Fact Energy Consumption'
+	lineageTag: 16ffc0fe-7b5e-4462-aa8b-04815918d3db
+
+	measure 'Consumption GWh' =
+			VAR HasSingleSector = HASONEVALUE('Dim Sector'[Sector])
+			RETURN
+			    IF(
+			        HasSingleSector,
+			        SUM('Fact Energy Consumption'[ConsumptionGWh]),
+			        CALCULATE(
+			            SUM('Fact Energy Consumption'[ConsumptionGWh]),
+			            KEEPFILTERS('Dim Sector'[CountsInAdditiveTotal] = TRUE())
+			        )
+			    )
+		formatString: #,##0.0
+		lineageTag: 5ba42449-42af-45b8-8e5e-9296b0412291
+
+	measure 'Consumption TWh' = DIVIDE([Consumption GWh], 1000)
+		formatString: #,##0.0
+		lineageTag: 21a22536-0260-4a69-be78-ace510a76ef9
+
+	measure 'Meter Count' =
+			VAR HasSingleSector = HASONEVALUE('Dim Sector'[Sector])
+			RETURN
+			    IF(
+			        HasSingleSector,
+			        SUM('Fact Energy Consumption'[Meters]),
+			        CALCULATE(
+			            SUM('Fact Energy Consumption'[Meters]),
+			            KEEPFILTERS('Dim Sector'[CountsInAdditiveTotal] = TRUE())
+			        )
+			    )
+		formatString: #,##0
+		lineageTag: a66741bb-2f54-4ac8-aa4b-8ab67e05dc06
+
+	measure 'Mean kWh per meter' = DIVIDE([Consumption GWh] * 1000000, [Meter Count])
+		formatString: #,##0
+		lineageTag: 22b618e2-a962-42c9-9c62-e3c272b3d9b0
+
+	measure 'Source Median kWh per meter' = AVERAGE('Fact Energy Consumption'[MedianKWhPerMeter])
+		formatString: #,##0
+		lineageTag: 9419e443-35a7-4f5f-8fa8-2f8b19e33bd9
+
+	measure 'Domestic Consumption GWh' = CALCULATE([Consumption GWh], 'Dim Sector'[Sector] = "Domestic")
+		formatString: #,##0.0
+		lineageTag: 439d7729-77b7-4f48-a2d6-a4d795d12744
+
+	measure 'Non-domestic Consumption GWh' = CALCULATE([Consumption GWh], 'Dim Sector'[Sector] = "Non-domestic")
+		formatString: #,##0.0
+		lineageTag: 11d44b53-7ea2-4875-a3e0-0e3511f51f76
+
+	measure 'Domestic Mix Share' = DIVIDE([Domestic Consumption GWh], [Domestic Consumption GWh] + [Non-domestic Consumption GWh])
+		formatString: 0.0%
+		lineageTag: f94c0a6c-d19a-4bcb-9e43-daec01b6868d
+
+	measure 'Non-domestic Mix Share' = DIVIDE([Non-domestic Consumption GWh], [Domestic Consumption GWh] + [Non-domestic Consumption GWh])
+		formatString: 0.0%
+		lineageTag: 855be925-04c9-4ed6-8152-84fe8793b8d8
+
+	measure 'Electricity Consumption GWh' = CALCULATE([Consumption GWh], 'Dim Fuel'[Fuel] = "Electricity")
+		formatString: #,##0.0
+		lineageTag: 8325b2f6-cf87-48c4-ada7-7b7c06d0de6a
+
+	measure 'Gas Consumption GWh' = CALCULATE([Consumption GWh], 'Dim Fuel'[Fuel] = "Gas")
+		formatString: #,##0.0
+		lineageTag: f75b6311-207e-41d6-aab1-9fbfac9606c0
+
+	measure 'Electricity Share' = DIVIDE([Electricity Consumption GWh], [Electricity Consumption GWh] + [Gas Consumption GWh])
+		formatString: 0.0%
+		lineageTag: 22a45965-d9c9-404b-b68b-3c4c70d9a4b2
+
+	measure 'Gas Share' = DIVIDE([Gas Consumption GWh], [Electricity Consumption GWh] + [Gas Consumption GWh])
+		formatString: 0.0%
+		lineageTag: 365aa9bf-7738-4b5d-8bb8-7f07cf5a0b01
+
+	measure 'Latest Year' = CALCULATE(MAX('Dim Date'[YearKey]), REMOVEFILTERS('Dim Date'))
+		formatString: 0
+		lineageTag: 2faabfd7-073b-40f9-8b5a-5801fb34a380
+
+	measure 'Latest Consumption GWh' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    CALCULATE(
+			        [Consumption GWh],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[YearKey] = LatestYear
+			    )
+		formatString: #,##0.0
+		lineageTag: f53e2bc1-366d-4576-8fd6-9cfb59924dbc
+
+	measure 'Previous Year Consumption GWh' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    CALCULATE(
+			        [Consumption GWh],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[YearKey] = LatestYear - 1
+			    )
+		formatString: #,##0.0
+		lineageTag: 9ad6d150-b5a8-4963-9053-b6c075129fbf
+
+	measure 'Latest YoY Change %' = DIVIDE([Latest Consumption GWh] - [Previous Year Consumption GWh], [Previous Year Consumption GWh])
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: 62b734b1-e876-4392-b76f-00098012315d
+
+	measure '2021 Baseline Consumption GWh' =
+			CALCULATE(
+			    [Consumption GWh],
+			    REMOVEFILTERS('Dim Date'),
+			    'Dim Date'[YearKey] = 2021
+			)
+		formatString: #,##0.0
+		lineageTag: 9f83dc50-7566-4ac6-b0aa-b36fb60d5bab
+
+	measure 'Latest vs 2021 Change %' = DIVIDE([Latest Consumption GWh] - [2021 Baseline Consumption GWh], [2021 Baseline Consumption GWh])
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: c01210bb-8ca2-4030-9d30-410798a2bca3
+
+	measure 'Latest Mean kWh per meter' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    CALCULATE(
+			        [Mean kWh per meter],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[YearKey] = LatestYear
+			    )
+		formatString: #,##0
+		lineageTag: 7cb92662-9cd7-49d1-8664-d0441832c69a
+
+	measure '2021 Mean kWh per meter' =
+			CALCULATE(
+			    [Mean kWh per meter],
+			    REMOVEFILTERS('Dim Date'),
+			    'Dim Date'[YearKey] = 2021
+			)
+		formatString: #,##0
+		lineageTag: a1a1e6d5-ee12-4f38-9838-51076f71db6d
+
+	measure 'Mean Use Change since 2021 %' = DIVIDE([Latest Mean kWh per meter] - [2021 Mean kWh per meter], [2021 Mean kWh per meter])
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: ef7544ca-41f9-46b6-8784-7356a52f81a3
+
+	measure 'Ten Year Ago Consumption GWh' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    CALCULATE(
+			        [Consumption GWh],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[YearKey] = LatestYear - 10
+			    )
+		formatString: #,##0.0
+		lineageTag: 994226cc-1723-4f49-ad80-ce02f19eae27
+
+	measure 'Ten Year CAGR' =
+			VAR LatestValue = [Latest Consumption GWh]
+			VAR PriorValue = [Ten Year Ago Consumption GWh]
+			RETURN
+			    IF(
+			        NOT ISBLANK(LatestValue) && NOT ISBLANK(PriorValue) && PriorValue > 0,
+			        POWER(DIVIDE(LatestValue, PriorValue), 0.1) - 1
+			    )
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: 33e9379d-2552-4029-9432-0838a1f5690e
+
+	measure 'Local Authority Demand Rank' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    IF(
+			        ISINSCOPE('Dim Geography'[GeographyName]),
+			        RANKX(
+			            FILTER(
+			                ALLSELECTED('Dim Geography'[GeographyKey], 'Dim Geography'[GeographyName], 'Dim Geography'[GeographyLevel]),
+			                'Dim Geography'[GeographyLevel] = "Local authority"
+			            ),
+			            CALCULATE(
+			                [Consumption GWh],
+			                REMOVEFILTERS('Dim Date'),
+			                'Dim Date'[YearKey] = LatestYear
+			            ),
+			            ,
+			            DESC,
+			            Dense
+			        )
+			    )
+		formatString: 0
+		lineageTag: 7f07c26b-54e4-422c-a1e4-e53c1a7c4f17
+
+	measure 'Demand Direction' =
+			VAR YoY = [Latest YoY Change %]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(YoY), "No comparison",
+			        YoY >= 0.03, "Rising",
+			        YoY <= -0.03, "Falling",
+			        "Stable"
+			    )
+		lineageTag: d16c105e-3ac5-49ac-9bc0-4858771cf831
+
+	measure 'Structural Change Signal' =
+			VAR YoY = [Latest YoY Change %]
+			VAR Since2021 = [Latest vs 2021 Change %]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(YoY) || ISBLANK(Since2021), "Insufficient history",
+			        Since2021 <= -0.10 && ABS(YoY) <= 0.03, "Lower plateau after 2021",
+			        Since2021 <= -0.10 && YoY > 0.03, "Partial rebound from lower base",
+			        Since2021 < -0.03, "Lower than 2021",
+			        YoY >= 0.05, "Short-term pressure rising",
+			        YoY <= -0.05, "Recent demand easing",
+			        "Broadly stable"
+			    )
+		lineageTag: ebc5fe1d-00b4-4dea-96e6-44a3c98a2baa
+
+	measure 'Efficiency Signal' =
+			VAR MeanChange = [Mean Use Change since 2021 %]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(MeanChange), "No comparison",
+			        MeanChange <= -0.10, "Large reduction in mean use",
+			        MeanChange <= -0.03, "Moderate reduction in mean use",
+			        MeanChange >= 0.03, "Mean use rising",
+			        "Mean use stable"
+			    )
+		lineageTag: fea3615b-baf5-4c2c-8ad8-927ef1efcb64
+
+	measure 'Executive Takeaway' =
+			"Latest demand is " & LOWER([Demand Direction]) &
+			"; consumption is " & FORMAT([Latest vs 2021 Change %], "+0.0%;-0.0%;0.0%") &
+			" versus 2021 and mean use per meter is " &
+			FORMAT([Mean Use Change since 2021 %], "+0.0%;-0.0%;0.0%") &
+			" versus 2021."
+		lineageTag: ba3443fc-2c2f-4ed4-8abb-c360b6dd73e3
+
+	measure 'Three Year Rolling Avg GWh' =
+			VAR CurrentYear = MAX('Dim Date'[YearKey])
+			VAR WindowYears =
+			    FILTER(
+			        ALL('Dim Date'),
+			        'Dim Date'[YearKey] <= CurrentYear &&
+			        'Dim Date'[YearKey] > CurrentYear - 3
+			    )
+			RETURN
+			    AVERAGEX(WindowYears, CALCULATE([Consumption GWh]))
+		formatString: #,##0.0
+		displayFolder: Trend Analysis
+		lineageTag: 5ffc57b8-57ad-42dd-b3c7-bab17cad5e7e
+
+	measure 'Great Britain Consumption GWh' =
+			CALCULATE(
+			    [Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: b20c0e93-0968-4d7f-a65d-646d5bef56ad
+
+	measure 'Great Britain 3Y Rolling Avg GWh' =
+			CALCULATE(
+			    [Three Year Rolling Avg GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 138fb23f-a0b8-47cb-a582-98d628a39189
+
+	measure 'Great Britain Latest Consumption GWh' =
+			CALCULATE(
+			    [Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: fa617f2a-2764-4f95-bcf5-74b69a2bbdaa
+
+	measure 'Great Britain Latest YoY Change %' =
+			CALCULATE(
+			    [Latest YoY Change %],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Great Britain
+		lineageTag: 0a76be6a-7847-4dc8-8354-ca4ab63ad2f1
+
+	measure 'Great Britain Latest vs 2021 Change %' =
+			CALCULATE(
+			    [Latest vs 2021 Change %],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Great Britain
+		lineageTag: e24f7290-960f-4b36-a7ef-a290c408205b
+
+	measure 'Great Britain Latest Mean kWh per meter' =
+			CALCULATE(
+			    [Latest Mean kWh per meter],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: #,##0
+		displayFolder: Great Britain
+		lineageTag: a3de31e8-f593-43a4-b950-2f45451bf104
+
+	measure 'Great Britain Structural Change Signal' =
+			CALCULATE(
+			    [Structural Change Signal],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		displayFolder: Great Britain
+		lineageTag: 77f7ccb1-4a6a-41a0-88d7-d93d74f6b471
+
+	measure 'Great Britain Domestic Consumption GWh' =
+			CALCULATE(
+			    [Domestic Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 8a75dcd1-3d19-4f6d-b16f-a7bc9ff5edc6
+
+	measure 'Great Britain Non-domestic Consumption GWh' =
+			CALCULATE(
+			    [Non-domestic Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 303009d9-7ce8-402a-9731-326eafa9dde3
+
+	measure 'Great Britain Electricity Consumption GWh' =
+			CALCULATE(
+			    [Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Fuel'),
+			    'Dim Fuel'[Fuel] = "Electricity"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: c53f923e-bd3a-4421-9112-41c5d70dd935
+
+	measure 'Great Britain Gas Consumption GWh' =
+			CALCULATE(
+			    [Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Fuel'),
+			    'Dim Fuel'[Fuel] = "Gas"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 3b27995a-84d8-4f0e-8547-78eda115b3c9
+
+	measure 'Great Britain Latest Electricity Consumption GWh' =
+			CALCULATE(
+			    [Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Fuel'),
+			    'Dim Fuel'[Fuel] = "Electricity"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: c0a64b4a-0bef-4974-8648-3b64083557bb
+
+	measure 'Great Britain Latest Gas Consumption GWh' =
+			CALCULATE(
+			    [Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Fuel'),
+			    'Dim Fuel'[Fuel] = "Gas"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: e5e4d61d-f866-4f0b-b000-500db824fd29
+
+	measure 'Latest Electricity Consumption GWh' =
+			CALCULATE(
+			    [Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Fuel'),
+			    'Dim Fuel'[Fuel] = "Electricity"
+			)
+		formatString: #,##0.0
+		displayFolder: Latest Snapshot
+		lineageTag: 8acd69eb-6c34-4bb0-9962-4b7d0657d608
+
+	measure 'Latest Gas Consumption GWh' =
+			CALCULATE(
+			    [Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Fuel'),
+			    'Dim Fuel'[Fuel] = "Gas"
+			)
+		formatString: #,##0.0
+		displayFolder: Latest Snapshot
+		lineageTag: 4710b653-3abd-424f-88a8-385b961173fe
+
+	measure 'Latest Domestic Mix Share %' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    CALCULATE(
+			        [Domestic Mix Share],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[YearKey] = LatestYear
+			    )
+		formatString: 0.0%
+		displayFolder: Latest Snapshot
+		lineageTag: 2f6a6cc3-c2c5-4f46-a655-4279453e759f
+
+	measure 'Latest Non-domestic Mix Share %' =
+			VAR LatestYear = [Latest Year]
+			RETURN
+			    CALCULATE(
+			        [Non-domestic Mix Share],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[YearKey] = LatestYear
+			    )
+		formatString: 0.0%
+		displayFolder: Latest Snapshot
+		lineageTag: 724f2311-553c-46d7-b419-8a3a86645c94
+
+	measure 'Great Britain Latest Domestic Mix Share %' =
+			CALCULATE(
+			    [Latest Domestic Mix Share %],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: 0.0%
+		displayFolder: Great Britain
+		lineageTag: 5a8b17ca-27f6-4ac4-a78a-416a919b1ff1
+
+	measure 'Great Britain Latest Non-domestic Mix Share %' =
+			CALCULATE(
+			    [Latest Non-domestic Mix Share %],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: 0.0%
+		displayFolder: Great Britain
+		lineageTag: 4790cef1-cfd2-4d66-8c8d-d89d23f920c1
+
+	measure 'Share of Great Britain %' = DIVIDE([Latest Consumption GWh], [Great Britain Latest Consumption GWh])
+		formatString: 0.0%
+		displayFolder: Latest Snapshot
+		lineageTag: 382c9026-b17c-4ba7-8537-bfd9809c9d1f
+
+	measure 'Filtered Local Authorities' =
+			CALCULATE(
+			    DISTINCTCOUNT('Fact Energy Consumption'[GeographyKey]),
+			    KEEPFILTERS('Dim Geography'[GeographyLevel] = "Local authority")
+			)
+		formatString: #,##0
+		displayFolder: Explorer
+		lineageTag: 12add536-74fa-4f52-8883-88605fe38213
+
+	measure 'Top Region Label' =
+			VAR Regions =
+			    FILTER(
+			        ALLSELECTED('Dim Geography'[RegionName]),
+			        NOT ISBLANK('Dim Geography'[RegionName])
+			    )
+			VAR TopRegion =
+			    TOPN(
+			        1,
+			        Regions,
+			        CALCULATE(
+			            [Latest Consumption GWh],
+			            KEEPFILTERS('Dim Geography'[GeographyLevel] = "Local authority")
+			        ),
+			        DESC,
+			        'Dim Geography'[RegionName], ASC
+			)
+			RETURN
+			    MAXX(TopRegion, 'Dim Geography'[RegionName])
+		displayFolder: Labels
+		lineageTag: bf2481ff-6a71-4d5f-b562-a511c9e256bd
+
+	measure 'Top Region Latest GWh' =
+			VAR Regions =
+			    FILTER(
+			        ALLSELECTED('Dim Geography'[RegionName]),
+			        NOT ISBLANK('Dim Geography'[RegionName])
+			    )
+			VAR TopRegion =
+			    TOPN(
+			        1,
+			        Regions,
+			        CALCULATE(
+			            [Latest Consumption GWh],
+			            KEEPFILTERS('Dim Geography'[GeographyLevel] = "Local authority")
+			        ),
+			        DESC,
+			        'Dim Geography'[RegionName], ASC
+			    )
+			RETURN
+			    MAXX(
+			        TopRegion,
+			        CALCULATE(
+			            [Latest Consumption GWh],
+			            KEEPFILTERS('Dim Geography'[GeographyLevel] = "Local authority")
+			        )
+			    )
+		formatString: #,##0.0
+		displayFolder: Labels
+		lineageTag: 4b94b5b5-c31f-4842-b527-9a7cc01f4efc
+
+	measure 'Top Local Authority Label' =
+			VAR Candidates =
+			    SUMMARIZE(
+			        FILTER(
+			            ALLSELECTED('Dim Geography'),
+			            'Dim Geography'[GeographyLevel] = "Local authority"
+			        ),
+			        'Dim Geography'[GeographyKey],
+			        'Dim Geography'[GeographyName]
+			    )
+			VAR TopLocal =
+			    TOPN(
+			        1,
+			        Candidates,
+			        CALCULATE([Latest Consumption GWh]),
+			        DESC,
+			        'Dim Geography'[GeographyName], ASC
+			)
+			RETURN
+			    MAXX(TopLocal, 'Dim Geography'[GeographyName])
+		displayFolder: Labels
+		lineageTag: 5f97d9c7-0d36-4381-87f2-62f9465a6894
+
+	measure 'Top Local Authority Latest GWh' =
+			VAR Candidates =
+			    SUMMARIZE(
+			        FILTER(
+			            ALLSELECTED('Dim Geography'),
+			            'Dim Geography'[GeographyLevel] = "Local authority"
+			        ),
+			        'Dim Geography'[GeographyKey],
+			        'Dim Geography'[GeographyName]
+			    )
+			VAR TopLocal =
+			    TOPN(
+			        1,
+			        Candidates,
+			        CALCULATE([Latest Consumption GWh]),
+			        DESC,
+			        'Dim Geography'[GeographyName], ASC
+			)
+			RETURN
+			    MAXX(TopLocal, CALCULATE([Latest Consumption GWh]))
+		formatString: #,##0.0
+		displayFolder: Labels
+		lineageTag: 848abf13-3c10-4e97-a260-f69278e5624e
+
+	measure 'Top Local Authority Share of Great Britain %' =
+			VAR Candidates =
+			    SUMMARIZE(
+			        FILTER(
+			            ALLSELECTED('Dim Geography'),
+			            'Dim Geography'[GeographyLevel] = "Local authority"
+			        ),
+			        'Dim Geography'[GeographyKey],
+			        'Dim Geography'[GeographyName]
+			    )
+			VAR TopLocal =
+			    TOPN(
+			        1,
+			        Candidates,
+			        CALCULATE([Latest Consumption GWh]),
+			        DESC,
+			        'Dim Geography'[GeographyName], ASC
+			)
+			RETURN
+			    MAXX(TopLocal, CALCULATE([Share of Great Britain %]))
+		formatString: 0.0%
+		displayFolder: Labels
+		lineageTag: a3355682-2f63-4268-b2e1-ba08114b40ac
+
+	measure 'Latest Snapshot Date' = CALCULATE(MAX('Dim Date'[YearStartDate]), REMOVEFILTERS('Dim Date'))
+		formatString: yyyy
+		displayFolder: Latest Snapshot
+		lineageTag: b31a2fb5-833f-44af-af55-f0d3187d0b8e
+
+	measure 'Latest Snapshot Label' = FORMAT([Latest Snapshot Date], "yyyy")
+		displayFolder: Latest Snapshot
+		lineageTag: 8aa5d7ce-4f53-4134-9657-9070f56f20bb
+
+	measure 'Latest vs 2021 GWh' = [Latest Consumption GWh] - [2021 Baseline Consumption GWh]
+		formatString: +#,##0.0;-#,##0.0;0.0
+		displayFolder: Latest Snapshot
+		lineageTag: 84e52253-e62b-4df3-86c4-c53ae7bf4cfb
+
+	measure 'Great Britain Latest vs 2021 GWh' =
+			CALCULATE(
+			    [Latest vs 2021 GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain"
+			)
+		formatString: +#,##0.0;-#,##0.0;0.0
+		displayFolder: Great Britain
+		lineageTag: 2c439ca2-6db3-4f3f-bc4f-f2671fe53e8d
+
+	measure 'Great Britain Latest Domestic Consumption GWh' =
+			CALCULATE(
+			    [Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Sector'),
+			    'Dim Sector'[Sector] = "Domestic"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 53ed7c9f-f2a3-43cd-87ec-8169f9ad8c84
+
+	measure 'Great Britain Latest Non-domestic Consumption GWh' =
+			CALCULATE(
+			    [Latest Consumption GWh],
+			    REMOVEFILTERS('Dim Geography'),
+			    'Dim Geography'[GeographyCode] = "K03000001",
+			    'Dim Geography'[GeographyLevel] = "Great Britain",
+			    REMOVEFILTERS('Dim Sector'),
+			    'Dim Sector'[Sector] = "Non-domestic"
+			)
+		formatString: #,##0.0
+		displayFolder: Great Britain
+		lineageTag: 923c110f-87c4-4289-9db5-402807c5799d
+
+	measure 'Great Britain Electricity Share' = DIVIDE([Great Britain Electricity Consumption GWh], [Great Britain Electricity Consumption GWh] + [Great Britain Gas Consumption GWh])
+		formatString: 0.0%
+		displayFolder: Great Britain
+		lineageTag: 8d3d3172-865d-4858-a419-dff9081fcd53
+
+	measure 'Great Britain Gas Share' = DIVIDE([Great Britain Gas Consumption GWh], [Great Britain Electricity Consumption GWh] + [Great Britain Gas Consumption GWh])
+		formatString: 0.0%
+		displayFolder: Great Britain
+		lineageTag: 13f1fd1c-61a4-4c85-98b2-9637507510cb
+
+	measure 'Great Britain Latest Electricity Share %' =
+			DIVIDE(
+			    [Great Britain Latest Electricity Consumption GWh],
+			    [Great Britain Latest Electricity Consumption GWh] + [Great Britain Latest Gas Consumption GWh]
+			)
+		formatString: 0.0%
+		displayFolder: Great Britain
+		lineageTag: 7a4a2374-90cc-4724-82fb-5b9d7c03bda4
+
+	measure 'Great Britain Latest Gas Share %' =
+			DIVIDE(
+			    [Great Britain Latest Gas Consumption GWh],
+			    [Great Britain Latest Electricity Consumption GWh] + [Great Britain Latest Gas Consumption GWh]
+			)
+		formatString: 0.0%
+		displayFolder: Great Britain
+		lineageTag: d28d3ef2-970d-43bc-8d81-df950a7d0375
+
+	column YearKey
+		dataType: int64
+		isHidden
+		lineageTag: 44b812b2-2692-460a-97db-cd75e78351c9
+		summarizeBy: none
+		sourceColumn: YearKey
+
+	column GeographyKey
+		dataType: string
+		isHidden
+		lineageTag: 41bb3af5-4bc7-4f2a-aa3b-1cef401d5794
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column Fuel
+		dataType: string
+		isHidden
+		lineageTag: f5fca0b3-57ca-4200-b934-196c183fd54c
+		summarizeBy: none
+		sourceColumn: Fuel
+
+	column Sector
+		dataType: string
+		isHidden
+		lineageTag: 0dfc53e3-b046-45dc-93e6-e3023c8fbc32
+		summarizeBy: none
+		sourceColumn: Sector
+
+	column MetersThousands
+		dataType: double
+		lineageTag: 72af2508-f2c3-457a-99b0-8aae094a6430
+		summarizeBy: none
+		sourceColumn: MetersThousands
+
+	column Meters
+		dataType: double
+		lineageTag: 463d0c6d-d6f3-4198-a0ae-b315fb763354
+		summarizeBy: none
+		sourceColumn: Meters
+
+	column ConsumptionGWh
+		dataType: double
+		lineageTag: 3e8ea305-b07e-4231-85a9-2995e7056911
+		summarizeBy: none
+		sourceColumn: ConsumptionGWh
+
+	column ConsumptionKWh
+		dataType: double
+		lineageTag: af653959-ff25-4f53-baaa-05c84ef60bd9
+		summarizeBy: none
+		sourceColumn: ConsumptionKWh
+
+	column MeanKWhPerMeter
+		dataType: double
+		lineageTag: 2678b6f5-1ff8-4290-b39a-e4bef5310b0c
+		summarizeBy: none
+		sourceColumn: MeanKWhPerMeter
+
+	column MedianKWhPerMeter
+		dataType: double
+		lineageTag: a9a5f757-41f8-48fb-9a3f-f934019203e3
+		summarizeBy: none
+		sourceColumn: MedianKWhPerMeter
+
+	column SourceGranularity
+		dataType: string
+		lineageTag: f583fcf0-1034-4a2e-a888-8df210c631ef
+		summarizeBy: none
+		sourceColumn: SourceGranularity
+
+	partition 'Fact Energy Consumption' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(ProcessedDataFolder & "\fact_energy_consumption.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"YearKey", Int64.Type},
+						{"GeographyKey", type text},
+						{"Fuel", type text},
+						{"Sector", type text},
+						{"MetersThousands", type number},
+						{"Meters", type number},
+						{"ConsumptionGWh", type number},
+						{"ConsumptionKWh", type number},
+						{"MeanKWhPerMeter", type number},
+						{"MedianKWhPerMeter", type number},
+						{"SourceGranularity", type text}
+					}, "en-GB")
+				in
+					Typed
+

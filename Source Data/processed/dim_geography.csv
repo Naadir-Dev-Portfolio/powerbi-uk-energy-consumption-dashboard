@@ -1,0 +1,1299 @@
+GeographyKey,GeographyCode,GeographyName,GeographyLevel,RegionName,CountryName,IsLocalAuthority,IsRegionOrCountry
+Country|E92000001|England,E92000001,England,Country,,England,False,True
+Country|S92000003|Scotland,S92000003,Scotland,Country,,Scotland,False,True
+Country|W92000004|Wales,W92000004,Wales,Country,,Wales,False,True
+Great Britain|K03000001|Great Britain,K03000001,Great Britain,Great Britain,,Great Britain,False,True
+Great Britain|K03000001|Great Britain (inc unallocated),K03000001,Great Britain (inc unallocated),Great Britain,,Unclassified,False,True
+Local authority|UKF1301|Amber Valley,UKF1301,Amber Valley,Local authority,East Midlands,England,True,False
+Local authority|17UB|Amber Valley,17UB,Amber Valley,Local authority,East Midlands,England,True,False
+Local authority|E07000032|Amber Valley,E07000032,Amber Valley,Local authority,East Midlands,England,True,False
+Local authority|UKF1501|Ashfield,UKF1501,Ashfield,Local authority,East Midlands,England,True,False
+Local authority|37UB|Ashfield,37UB,Ashfield,Local authority,East Midlands,England,True,False
+Local authority|E07000170|Ashfield,E07000170,Ashfield,Local authority,East Midlands,England,True,False
+Local authority|UKF1502|Bassetlaw,UKF1502,Bassetlaw,Local authority,East Midlands,England,True,False
+Local authority|37UC|Bassetlaw,37UC,Bassetlaw,Local authority,East Midlands,England,True,False
+Local authority|E07000171|Bassetlaw,E07000171,Bassetlaw,Local authority,East Midlands,England,True,False
+Local authority|UKF2201|Blaby,UKF2201,Blaby,Local authority,East Midlands,England,True,False
+Local authority|31UB|Blaby,31UB,Blaby,Local authority,East Midlands,England,True,False
+Local authority|E07000129|Blaby,E07000129,Blaby,Local authority,East Midlands,England,True,False
+Local authority|UKF1201|Bolsover,UKF1201,Bolsover,Local authority,East Midlands,England,True,False
+Local authority|17UC|Bolsover,17UC,Bolsover,Local authority,East Midlands,England,True,False
+Local authority|E07000033|Bolsover,E07000033,Bolsover,Local authority,East Midlands,England,True,False
+Local authority|UKF3001|Boston,UKF3001,Boston,Local authority,East Midlands,England,True,False
+Local authority|32UB|Boston,32UB,Boston,Local authority,East Midlands,England,True,False
+Local authority|E07000136|Boston,E07000136,Boston,Local authority,East Midlands,England,True,False
+Local authority|UKF1601|Broxtowe,UKF1601,Broxtowe,Local authority,East Midlands,England,True,False
+Local authority|37UD|Broxtowe,37UD,Broxtowe,Local authority,East Midlands,England,True,False
+Local authority|E07000172|Broxtowe,E07000172,Broxtowe,Local authority,East Midlands,England,True,False
+Local authority|UKF2202|Charnwood,UKF2202,Charnwood,Local authority,East Midlands,England,True,False
+Local authority|31UC|Charnwood,31UC,Charnwood,Local authority,East Midlands,England,True,False
+Local authority|E07000130|Charnwood,E07000130,Charnwood,Local authority,East Midlands,England,True,False
+Local authority|UKF1202|Chesterfield,UKF1202,Chesterfield,Local authority,East Midlands,England,True,False
+Local authority|17UD|Chesterfield,17UD,Chesterfield,Local authority,East Midlands,England,True,False
+Local authority|E07000034|Chesterfield,E07000034,Chesterfield,Local authority,East Midlands,England,True,False
+Local authority|UKF2301|Corby,UKF2301,Corby,Local authority,East Midlands,England,True,False
+Local authority|34UB|Corby,34UB,Corby,Local authority,East Midlands,England,True,False
+Local authority|E07000150|Corby,E07000150,Corby,Local authority,East Midlands,England,True,False
+Local authority|UKF2302|Daventry,UKF2302,Daventry,Local authority,East Midlands,England,True,False
+Local authority|34UC|Daventry,34UC,Daventry,Local authority,East Midlands,England,True,False
+Local authority|E07000151|Daventry,E07000151,Daventry,Local authority,East Midlands,England,True,False
+Local authority|UKF1100|Derby,UKF1100,Derby,Local authority,East Midlands,England,True,False
+Local authority|00FK|Derby,00FK,Derby,Local authority,East Midlands,England,True,False
+Local authority|E06000015|Derby,E06000015,Derby,Local authority,East Midlands,England,True,False
+Local authority|UKF1303|Derbyshire Dales,UKF1303,Derbyshire Dales,Local authority,East Midlands,England,True,False
+Local authority|17UF|Derbyshire Dales,17UF,Derbyshire Dales,Local authority,East Midlands,England,True,False
+Local authority|E07000035|Derbyshire Dales,E07000035,Derbyshire Dales,Local authority,East Midlands,England,True,False
+Local authority|UKF3002|East Lindsey,UKF3002,East Lindsey,Local authority,East Midlands,England,True,False
+Local authority|32UC|East Lindsey,32UC,East Lindsey,Local authority,East Midlands,England,True,False
+Local authority|E07000137|East Lindsey,E07000137,East Lindsey,Local authority,East Midlands,England,True,False
+Local authority|UKF2303|East Northamptonshire,UKF2303,East Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|34UD|East Northamptonshire,34UD,East Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|E07000152|East Northamptonshire,E07000152,East Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|UKF1304|Erewash,UKF1304,Erewash,Local authority,East Midlands,England,True,False
+Local authority|17UG|Erewash,17UG,Erewash,Local authority,East Midlands,England,True,False
+Local authority|E07000036|Erewash,E07000036,Erewash,Local authority,East Midlands,England,True,False
+Local authority|UKF1602|Gedling,UKF1602,Gedling,Local authority,East Midlands,England,True,False
+Local authority|37UE|Gedling,37UE,Gedling,Local authority,East Midlands,England,True,False
+Local authority|E07000173|Gedling,E07000173,Gedling,Local authority,East Midlands,England,True,False
+Local authority|UKF2203|Harborough,UKF2203,Harborough,Local authority,East Midlands,England,True,False
+Local authority|31UD|Harborough,31UD,Harborough,Local authority,East Midlands,England,True,False
+Local authority|E07000131|Harborough,E07000131,Harborough,Local authority,East Midlands,England,True,False
+Local authority|UKF1305|High Peak,UKF1305,High Peak,Local authority,East Midlands,England,True,False
+Local authority|17UH|High Peak,17UH,High Peak,Local authority,East Midlands,England,True,False
+Local authority|E07000037|High Peak,E07000037,High Peak,Local authority,East Midlands,England,True,False
+Local authority|UKF2204|Hinckley and Bosworth,UKF2204,Hinckley and Bosworth,Local authority,East Midlands,England,True,False
+Local authority|31UE|Hinckley and Bosworth,31UE,Hinckley and Bosworth,Local authority,East Midlands,England,True,False
+Local authority|E07000132|Hinckley and Bosworth,E07000132,Hinckley and Bosworth,Local authority,East Midlands,England,True,False
+Local authority|UKF2304|Kettering,UKF2304,Kettering,Local authority,East Midlands,England,True,False
+Local authority|34UE|Kettering,34UE,Kettering,Local authority,East Midlands,England,True,False
+Local authority|E07000153|Kettering,E07000153,Kettering,Local authority,East Midlands,England,True,False
+Local authority|UKF2100|Leicester,UKF2100,Leicester,Local authority,East Midlands,England,True,False
+Local authority|00FN|Leicester,00FN,Leicester,Local authority,East Midlands,England,True,False
+Local authority|E06000016|Leicester,E06000016,Leicester,Local authority,East Midlands,England,True,False
+Local authority|UKF3003|Lincoln,UKF3003,Lincoln,Local authority,East Midlands,England,True,False
+Local authority|32UD|Lincoln,32UD,Lincoln,Local authority,East Midlands,England,True,False
+Local authority|E07000138|Lincoln,E07000138,Lincoln,Local authority,East Midlands,England,True,False
+Local authority|UKF1503|Mansfield,UKF1503,Mansfield,Local authority,East Midlands,England,True,False
+Local authority|37UF|Mansfield,37UF,Mansfield,Local authority,East Midlands,England,True,False
+Local authority|E07000174|Mansfield,E07000174,Mansfield,Local authority,East Midlands,England,True,False
+Local authority|UKF2205|Melton,UKF2205,Melton,Local authority,East Midlands,England,True,False
+Local authority|31UG|Melton,31UG,Melton,Local authority,East Midlands,England,True,False
+Local authority|E07000133|Melton,E07000133,Melton,Local authority,East Midlands,England,True,False
+Local authority|UKF1504|Newark and Sherwood,UKF1504,Newark and Sherwood,Local authority,East Midlands,England,True,False
+Local authority|37UG|Newark and Sherwood,37UG,Newark and Sherwood,Local authority,East Midlands,England,True,False
+Local authority|E07000175|Newark and Sherwood,E07000175,Newark and Sherwood,Local authority,East Midlands,England,True,False
+Local authority|UKF1203|North East Derbyshire,UKF1203,North East Derbyshire,Local authority,East Midlands,England,True,False
+Local authority|17UJ|North East Derbyshire,17UJ,North East Derbyshire,Local authority,East Midlands,England,True,False
+Local authority|E07000038|North East Derbyshire,E07000038,North East Derbyshire,Local authority,East Midlands,England,True,False
+Local authority|UKF3004|North Kesteven,UKF3004,North Kesteven,Local authority,East Midlands,England,True,False
+Local authority|32UE|North Kesteven,32UE,North Kesteven,Local authority,East Midlands,England,True,False
+Local authority|E07000139|North Kesteven,E07000139,North Kesteven,Local authority,East Midlands,England,True,False
+Local authority|E06000061|North Northamptonshire,E06000061,North Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|UKF2206|North West Leicestershire,UKF2206,North West Leicestershire,Local authority,East Midlands,England,True,False
+Local authority|31UH|North West Leicestershire,31UH,North West Leicestershire,Local authority,East Midlands,England,True,False
+Local authority|E07000134|North West Leicestershire,E07000134,North West Leicestershire,Local authority,East Midlands,England,True,False
+Local authority|UKF2305|Northampton,UKF2305,Northampton,Local authority,East Midlands,England,True,False
+Local authority|34UF|Northampton,34UF,Northampton,Local authority,East Midlands,England,True,False
+Local authority|E07000154|Northampton,E07000154,Northampton,Local authority,East Midlands,England,True,False
+Local authority|UKF1400|Nottingham,UKF1400,Nottingham,Local authority,East Midlands,England,True,False
+Local authority|00FY|Nottingham,00FY,Nottingham,Local authority,East Midlands,England,True,False
+Local authority|E06000018|Nottingham,E06000018,Nottingham,Local authority,East Midlands,England,True,False
+Local authority|UKF2207|Oadby and Wigston,UKF2207,Oadby and Wigston,Local authority,East Midlands,England,True,False
+Local authority|31UJ|Oadby and Wigston,31UJ,Oadby and Wigston,Local authority,East Midlands,England,True,False
+Local authority|E07000135|Oadby and Wigston,E07000135,Oadby and Wigston,Local authority,East Midlands,England,True,False
+Local authority|UKF1603|Rushcliffe,UKF1603,Rushcliffe,Local authority,East Midlands,England,True,False
+Local authority|37UJ|Rushcliffe,37UJ,Rushcliffe,Local authority,East Midlands,England,True,False
+Local authority|E07000176|Rushcliffe,E07000176,Rushcliffe,Local authority,East Midlands,England,True,False
+Local authority|UKF2208|Rutland,UKF2208,Rutland,Local authority,East Midlands,England,True,False
+Local authority|00FP|Rutland,00FP,Rutland,Local authority,East Midlands,England,True,False
+Local authority|E06000017|Rutland,E06000017,Rutland,Local authority,East Midlands,England,True,False
+Local authority|UKF1302|South Derbyshire,UKF1302,South Derbyshire,Local authority,East Midlands,England,True,False
+Local authority|17UK|South Derbyshire,17UK,South Derbyshire,Local authority,East Midlands,England,True,False
+Local authority|E07000039|South Derbyshire,E07000039,South Derbyshire,Local authority,East Midlands,England,True,False
+Local authority|UKF3005|South Holland,UKF3005,South Holland,Local authority,East Midlands,England,True,False
+Local authority|32UF|South Holland,32UF,South Holland,Local authority,East Midlands,England,True,False
+Local authority|E07000140|South Holland,E07000140,South Holland,Local authority,East Midlands,England,True,False
+Local authority|UKF3006|South Kesteven,UKF3006,South Kesteven,Local authority,East Midlands,England,True,False
+Local authority|32UG|South Kesteven,32UG,South Kesteven,Local authority,East Midlands,England,True,False
+Local authority|E07000141|South Kesteven,E07000141,South Kesteven,Local authority,East Midlands,England,True,False
+Local authority|UKF2306|South Northamptonshire,UKF2306,South Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|34UG|South Northamptonshire,34UG,South Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|E07000155|South Northamptonshire,E07000155,South Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|UKF2307|Wellingborough,UKF2307,Wellingborough,Local authority,East Midlands,England,True,False
+Local authority|34UH|Wellingborough,34UH,Wellingborough,Local authority,East Midlands,England,True,False
+Local authority|E07000156|Wellingborough,E07000156,Wellingborough,Local authority,East Midlands,England,True,False
+Local authority|UKF3007|West Lindsey,UKF3007,West Lindsey,Local authority,East Midlands,England,True,False
+Local authority|32UH|West Lindsey,32UH,West Lindsey,Local authority,East Midlands,England,True,False
+Local authority|E07000142|West Lindsey,E07000142,West Lindsey,Local authority,East Midlands,England,True,False
+Local authority|E06000062|West Northamptonshire,E06000062,West Northamptonshire,Local authority,East Midlands,England,True,False
+Local authority|UKI2101|Barking and Dagenham,UKI2101,Barking and Dagenham,Local authority,London,England,True,False
+Local authority|00AB|Barking and Dagenham,00AB,Barking and Dagenham,Local authority,London,England,True,False
+Local authority|E09000002|Barking and Dagenham,E09000002,Barking and Dagenham,Local authority,London,England,True,False
+Local authority|UKI2301|Barnet,UKI2301,Barnet,Local authority,London,England,True,False
+Local authority|00AC|Barnet,00AC,Barnet,Local authority,London,England,True,False
+Local authority|E09000003|Barnet,E09000003,Barnet,Local authority,London,England,True,False
+Local authority|UKI2102|Bexley,UKI2102,Bexley,Local authority,London,England,True,False
+Local authority|00AD|Bexley,00AD,Bexley,Local authority,London,England,True,False
+Local authority|E09000004|Bexley,E09000004,Bexley,Local authority,London,England,True,False
+Local authority|UKI2302|Brent,UKI2302,Brent,Local authority,London,England,True,False
+Local authority|00AE|Brent,00AE,Brent,Local authority,London,England,True,False
+Local authority|E09000005|Brent,E09000005,Brent,Local authority,London,England,True,False
+Local authority|UKI2201|Bromley,UKI2201,Bromley,Local authority,London,England,True,False
+Local authority|00AF|Bromley,00AF,Bromley,Local authority,London,England,True,False
+Local authority|E09000006|Bromley,E09000006,Bromley,Local authority,London,England,True,False
+Local authority|UKI1102|Camden,UKI1102,Camden,Local authority,London,England,True,False
+Local authority|00AG|Camden,00AG,Camden,Local authority,London,England,True,False
+Local authority|E09000007|Camden,E09000007,Camden,Local authority,London,England,True,False
+Local authority|UKI1101|City of London,UKI1101,City of London,Local authority,London,England,True,False
+Local authority|00AA|City of London,00AA,City of London,Local authority,London,England,True,False
+Local authority|E09000001|City of London,E09000001,City of London,Local authority,London,England,True,False
+Local authority|E09000001|City of London�,E09000001,City of London�,Local authority,London,England,True,False
+Local authority|UKI2202|Croydon,UKI2202,Croydon,Local authority,London,England,True,False
+Local authority|00AH|Croydon,00AH,Croydon,Local authority,London,England,True,False
+Local authority|E09000008|Croydon,E09000008,Croydon,Local authority,London,England,True,False
+Local authority|UKI2303|Ealing,UKI2303,Ealing,Local authority,London,England,True,False
+Local authority|00AJ|Ealing,00AJ,Ealing,Local authority,London,England,True,False
+Local authority|E09000009|Ealing,E09000009,Ealing,Local authority,London,England,True,False
+Local authority|UKI2103|Enfield,UKI2103,Enfield,Local authority,London,England,True,False
+Local authority|00AK|Enfield,00AK,Enfield,Local authority,London,England,True,False
+Local authority|E09000010|Enfield,E09000010,Enfield,Local authority,London,England,True,False
+Local authority|UKI2104|Greenwich,UKI2104,Greenwich,Local authority,London,England,True,False
+Local authority|00AL|Greenwich,00AL,Greenwich,Local authority,London,England,True,False
+Local authority|E09000011|Greenwich,E09000011,Greenwich,Local authority,London,England,True,False
+Local authority|UKI1201|Hackney,UKI1201,Hackney,Local authority,London,England,True,False
+Local authority|00AM|Hackney,00AM,Hackney,Local authority,London,England,True,False
+Local authority|E09000012|Hackney,E09000012,Hackney,Local authority,London,England,True,False
+Local authority|UKI1103|Hammersmith and Fulham,UKI1103,Hammersmith and Fulham,Local authority,London,England,True,False
+Local authority|00AN|Hammersmith and Fulham,00AN,Hammersmith and Fulham,Local authority,London,England,True,False
+Local authority|E09000013|Hammersmith and Fulham,E09000013,Hammersmith and Fulham,Local authority,London,England,True,False
+Local authority|UKI1202|Haringey,UKI1202,Haringey,Local authority,London,England,True,False
+Local authority|00AP|Haringey,00AP,Haringey,Local authority,London,England,True,False
+Local authority|E09000014|Haringey,E09000014,Haringey,Local authority,London,England,True,False
+Local authority|UKI2304|Harrow,UKI2304,Harrow,Local authority,London,England,True,False
+Local authority|00AQ|Harrow,00AQ,Harrow,Local authority,London,England,True,False
+Local authority|E09000015|Harrow,E09000015,Harrow,Local authority,London,England,True,False
+Local authority|E09000015|Harrow�,E09000015,Harrow�,Local authority,London,England,True,False
+Local authority|UKI2105|Havering,UKI2105,Havering,Local authority,London,England,True,False
+Local authority|00AR|Havering,00AR,Havering,Local authority,London,England,True,False
+Local authority|E09000016|Havering,E09000016,Havering,Local authority,London,England,True,False
+Local authority|UKI2305|Hillingdon,UKI2305,Hillingdon,Local authority,London,England,True,False
+Local authority|00AS|Hillingdon,00AS,Hillingdon,Local authority,London,England,True,False
+Local authority|E09000017|Hillingdon,E09000017,Hillingdon,Local authority,London,England,True,False
+Local authority|UKI2306|Hounslow,UKI2306,Hounslow,Local authority,London,England,True,False
+Local authority|00AT|Hounslow,00AT,Hounslow,Local authority,London,England,True,False
+Local authority|E09000018|Hounslow,E09000018,Hounslow,Local authority,London,England,True,False
+Local authority|UKI1203|Islington,UKI1203,Islington,Local authority,London,England,True,False
+Local authority|00AU|Islington,00AU,Islington,Local authority,London,England,True,False
+Local authority|E09000019|Islington,E09000019,Islington,Local authority,London,England,True,False
+Local authority|UKI1104|Kensington and Chelsea,UKI1104,Kensington and Chelsea,Local authority,London,England,True,False
+Local authority|00AW|Kensington and Chelsea,00AW,Kensington and Chelsea,Local authority,London,England,True,False
+Local authority|E09000020|Kensington and Chelsea,E09000020,Kensington and Chelsea,Local authority,London,England,True,False
+Local authority|UKI2203|Kingston upon Thames,UKI2203,Kingston upon Thames,Local authority,London,England,True,False
+Local authority|00AX|Kingston upon Thames,00AX,Kingston upon Thames,Local authority,London,England,True,False
+Local authority|E09000021|Kingston upon Thames,E09000021,Kingston upon Thames,Local authority,London,England,True,False
+Local authority|UKI1204|Lambeth,UKI1204,Lambeth,Local authority,London,England,True,False
+Local authority|00AY|Lambeth,00AY,Lambeth,Local authority,London,England,True,False
+Local authority|E09000022|Lambeth,E09000022,Lambeth,Local authority,London,England,True,False
+Local authority|UKI1205|Lewisham,UKI1205,Lewisham,Local authority,London,England,True,False
+Local authority|00AZ|Lewisham,00AZ,Lewisham,Local authority,London,England,True,False
+Local authority|E09000023|Lewisham,E09000023,Lewisham,Local authority,London,England,True,False
+Local authority|UKI2204|Merton,UKI2204,Merton,Local authority,London,England,True,False
+Local authority|00BA|Merton,00BA,Merton,Local authority,London,England,True,False
+Local authority|E09000024|Merton,E09000024,Merton,Local authority,London,England,True,False
+Local authority|UKI1206|Newham,UKI1206,Newham,Local authority,London,England,True,False
+Local authority|00BB|Newham,00BB,Newham,Local authority,London,England,True,False
+Local authority|E09000025|Newham,E09000025,Newham,Local authority,London,England,True,False
+Local authority|UKI2106|Redbridge,UKI2106,Redbridge,Local authority,London,England,True,False
+Local authority|00BC|Redbridge,00BC,Redbridge,Local authority,London,England,True,False
+Local authority|E09000026|Redbridge,E09000026,Redbridge,Local authority,London,England,True,False
+Local authority|UKI2307|Richmond upon Thames,UKI2307,Richmond upon Thames,Local authority,London,England,True,False
+Local authority|00BD|Richmond upon Thames,00BD,Richmond upon Thames,Local authority,London,England,True,False
+Local authority|E09000027|Richmond upon Thames,E09000027,Richmond upon Thames,Local authority,London,England,True,False
+Local authority|UKI1207|Southwark,UKI1207,Southwark,Local authority,London,England,True,False
+Local authority|00BE|Southwark,00BE,Southwark,Local authority,London,England,True,False
+Local authority|E09000028|Southwark,E09000028,Southwark,Local authority,London,England,True,False
+Local authority|UKI2205|Sutton,UKI2205,Sutton,Local authority,London,England,True,False
+Local authority|00BF|Sutton,00BF,Sutton,Local authority,London,England,True,False
+Local authority|E09000029|Sutton,E09000029,Sutton,Local authority,London,England,True,False
+Local authority|UKI1208|Tower Hamlets,UKI1208,Tower Hamlets,Local authority,London,England,True,False
+Local authority|00BG|Tower Hamlets,00BG,Tower Hamlets,Local authority,London,England,True,False
+Local authority|E09000030|Tower Hamlets,E09000030,Tower Hamlets,Local authority,London,England,True,False
+Local authority|UKI2107|Waltham Forest,UKI2107,Waltham Forest,Local authority,London,England,True,False
+Local authority|00BH|Waltham Forest,00BH,Waltham Forest,Local authority,London,England,True,False
+Local authority|E09000031|Waltham Forest,E09000031,Waltham Forest,Local authority,London,England,True,False
+Local authority|UKI1105|Wandsworth,UKI1105,Wandsworth,Local authority,London,England,True,False
+Local authority|00BJ|Wandsworth,00BJ,Wandsworth,Local authority,London,England,True,False
+Local authority|E09000032|Wandsworth,E09000032,Wandsworth,Local authority,London,England,True,False
+Local authority|UKI1106|Westminster,UKI1106,Westminster,Local authority,London,England,True,False
+Local authority|00BK|Westminster,00BK,Westminster,Local authority,London,England,True,False
+Local authority|E09000033|Westminster,E09000033,Westminster,Local authority,London,England,True,False
+Local authority|UKC2101|Alnwick,UKC2101,Alnwick,Local authority,North East,England,True,False
+Local authority|UKC2102|Berwick-upon-Tweed,UKC2102,Berwick-upon-Tweed,Local authority,North East,England,True,False
+Local authority|UKC2103|Blyth Valley,UKC2103,Blyth Valley,Local authority,North East,England,True,False
+Local authority|UKC2104|Castle Morpeth,UKC2104,Castle Morpeth,Local authority,North East,England,True,False
+Local authority|UKC1409|Chester-le-Street,UKC1409,Chester-le-Street,Local authority,North East,England,True,False
+Local authority|00EJ|County Durham,00EJ,County Durham,Local authority,North East,England,True,False
+Local authority|E06000047|County Durham,E06000047,County Durham,Local authority,North East,England,True,False
+Local authority|UKC1300|Darlington,UKC1300,Darlington,Local authority,North East,England,True,False
+Local authority|00EH|Darlington,00EH,Darlington,Local authority,North East,England,True,False
+Local authority|E06000005|Darlington,E06000005,Darlington,Local authority,North East,England,True,False
+Local authority|UKC1403|Derwentside,UKC1403,Derwentside,Local authority,North East,England,True,False
+Local authority|UKC1410|Durham,UKC1410,Durham,Local authority,North East,England,True,False
+Local authority|UKC1411|Easington,UKC1411,Easington,Local authority,North East,England,True,False
+Local authority|UKC2201|Gateshead,UKC2201,Gateshead,Local authority,North East,England,True,False
+Local authority|00CH|Gateshead,00CH,Gateshead,Local authority,North East,England,True,False
+Local authority|E08000037|Gateshead,E08000037,Gateshead,Local authority,North East,England,True,False
+Local authority|UKC1101|Hartlepool,UKC1101,Hartlepool,Local authority,North East,England,True,False
+Local authority|00EB|Hartlepool,00EB,Hartlepool,Local authority,North East,England,True,False
+Local authority|E06000001|Hartlepool,E06000001,Hartlepool,Local authority,North East,England,True,False
+Local authority|UKC1201|Middlesbrough,UKC1201,Middlesbrough,Local authority,North East,England,True,False
+Local authority|00EC|Middlesbrough,00EC,Middlesbrough,Local authority,North East,England,True,False
+Local authority|E06000002|Middlesbrough,E06000002,Middlesbrough,Local authority,North East,England,True,False
+Local authority|UKC2202|Newcastle upon Tyne,UKC2202,Newcastle upon Tyne,Local authority,North East,England,True,False
+Local authority|00CJ|Newcastle upon Tyne,00CJ,Newcastle upon Tyne,Local authority,North East,England,True,False
+Local authority|E08000021|Newcastle upon Tyne,E08000021,Newcastle upon Tyne,Local authority,North East,England,True,False
+Local authority|UKC2203|North Tyneside,UKC2203,North Tyneside,Local authority,North East,England,True,False
+Local authority|00CK|North Tyneside,00CK,North Tyneside,Local authority,North East,England,True,False
+Local authority|E08000022|North Tyneside,E08000022,North Tyneside,Local authority,North East,England,True,False
+Local authority|00EM|Northumberland,00EM,Northumberland,Local authority,North East,England,True,False
+Local authority|E06000057|Northumberland,E06000057,Northumberland,Local authority,North East,England,True,False
+Local authority|UKC1202|Redcar and Cleveland,UKC1202,Redcar and Cleveland,Local authority,North East,England,True,False
+Local authority|00EE|Redcar and Cleveland,00EE,Redcar and Cleveland,Local authority,North East,England,True,False
+Local authority|E06000003|Redcar and Cleveland,E06000003,Redcar and Cleveland,Local authority,North East,England,True,False
+Local authority|UKC1406|Sedgefield,UKC1406,Sedgefield,Local authority,North East,England,True,False
+Local authority|UKC2204|South Tyneside,UKC2204,South Tyneside,Local authority,North East,England,True,False
+Local authority|00CL|South Tyneside,00CL,South Tyneside,Local authority,North East,England,True,False
+Local authority|E08000023|South Tyneside,E08000023,South Tyneside,Local authority,North East,England,True,False
+Local authority|UKC1102|Stockton-on-Tees,UKC1102,Stockton-on-Tees,Local authority,North East,England,True,False
+Local authority|00EF|Stockton-on-Tees,00EF,Stockton-on-Tees,Local authority,North East,England,True,False
+Local authority|E06000004|Stockton-on-Tees,E06000004,Stockton-on-Tees,Local authority,North East,England,True,False
+Local authority|UKC2300|Sunderland,UKC2300,Sunderland,Local authority,North East,England,True,False
+Local authority|00CM|Sunderland,00CM,Sunderland,Local authority,North East,England,True,False
+Local authority|E08000024|Sunderland,E08000024,Sunderland,Local authority,North East,England,True,False
+Local authority|UKC1407|Teesdale,UKC1407,Teesdale,Local authority,North East,England,True,False
+Local authority|UKC2105|Tynedale,UKC2105,Tynedale,Local authority,North East,England,True,False
+Local authority|UKC2106|Wansbeck,UKC2106,Wansbeck,Local authority,North East,England,True,False
+Local authority|UKC1408|Wear Valley,UKC1408,Wear Valley,Local authority,North East,England,True,False
+Local authority|UKD1101|Allerdale,UKD1101,Allerdale,Local authority,North West,England,True,False
+Local authority|16UB|Allerdale,16UB,Allerdale,Local authority,North West,England,True,False
+Local authority|E07000026|Allerdale,E07000026,Allerdale,Local authority,North West,England,True,False
+Local authority|UKD1102|Barrow-in-Furness,UKD1102,Barrow-in-Furness,Local authority,North West,England,True,False
+Local authority|16UC|Barrow-in-Furness,16UC,Barrow-in-Furness,Local authority,North West,England,True,False
+Local authority|E07000027|Barrow-in-Furness,E07000027,Barrow-in-Furness,Local authority,North West,England,True,False
+Local authority|UKD4100|Blackburn with Darwen,UKD4100,Blackburn with Darwen,Local authority,North West,England,True,False
+Local authority|00EX|Blackburn with Darwen,00EX,Blackburn with Darwen,Local authority,North West,England,True,False
+Local authority|E06000008|Blackburn with Darwen,E06000008,Blackburn with Darwen,Local authority,North West,England,True,False
+Local authority|UKD4200|Blackpool,UKD4200,Blackpool,Local authority,North West,England,True,False
+Local authority|00EY|Blackpool,00EY,Blackpool,Local authority,North West,England,True,False
+Local authority|E06000009|Blackpool,E06000009,Blackpool,Local authority,North West,England,True,False
+Local authority|UKD3201|Bolton,UKD3201,Bolton,Local authority,North West,England,True,False
+Local authority|00BL|Bolton,00BL,Bolton,Local authority,North West,England,True,False
+Local authority|E08000001|Bolton,E08000001,Bolton,Local authority,North West,England,True,False
+Local authority|UKD4301|Burnley,UKD4301,Burnley,Local authority,North West,England,True,False
+Local authority|30UD|Burnley,30UD,Burnley,Local authority,North West,England,True,False
+Local authority|E07000117|Burnley,E07000117,Burnley,Local authority,North West,England,True,False
+Local authority|UKD3202|Bury,UKD3202,Bury,Local authority,North West,England,True,False
+Local authority|00BM|Bury,00BM,Bury,Local authority,North West,England,True,False
+Local authority|E08000002|Bury,E08000002,Bury,Local authority,North West,England,True,False
+Local authority|UKD1201|Carlisle,UKD1201,Carlisle,Local authority,North West,England,True,False
+Local authority|16UD|Carlisle,16UD,Carlisle,Local authority,North West,England,True,False
+Local authority|E07000028|Carlisle,E07000028,Carlisle,Local authority,North West,England,True,False
+Local authority|00EQ|Cheshire East,00EQ,Cheshire East,Local authority,North West,England,True,False
+Local authority|E06000049|Cheshire East,E06000049,Cheshire East,Local authority,North West,England,True,False
+Local authority|00EW|Cheshire West and Chester,00EW,Cheshire West and Chester,Local authority,North West,England,True,False
+Local authority|E06000050|Cheshire West and Chester,E06000050,Cheshire West and Chester,Local authority,North West,England,True,False
+Local authority|UKD2201|Chester,UKD2201,Chester,Local authority,North West,England,True,False
+Local authority|UKD4302|Chorley,UKD4302,Chorley,Local authority,North West,England,True,False
+Local authority|30UE|Chorley,30UE,Chorley,Local authority,North West,England,True,False
+Local authority|E07000118|Chorley,E07000118,Chorley,Local authority,North West,England,True,False
+Local authority|UKD2202|Congleton,UKD2202,Congleton,Local authority,North West,England,True,False
+Local authority|UKD1103|Copeland,UKD1103,Copeland,Local authority,North West,England,True,False
+Local authority|16UE|Copeland,16UE,Copeland,Local authority,North West,England,True,False
+Local authority|E07000029|Copeland,E07000029,Copeland,Local authority,North West,England,True,False
+Local authority|UKD2203|Crewe and Nantwich,UKD2203,Crewe and Nantwich,Local authority,North West,England,True,False
+Local authority|E06000063|Cumberland,E06000063,Cumberland,Local authority,North West,England,True,False
+Local authority|UKD1202|Eden,UKD1202,Eden,Local authority,North West,England,True,False
+Local authority|16UF|Eden,16UF,Eden,Local authority,North West,England,True,False
+Local authority|E07000030|Eden,E07000030,Eden,Local authority,North West,England,True,False
+Local authority|UKD2204|Ellesmere Port & Neston,UKD2204,Ellesmere Port & Neston,Local authority,North West,England,True,False
+Local authority|UKD4303|Fylde,UKD4303,Fylde,Local authority,North West,England,True,False
+Local authority|30UF|Fylde,30UF,Fylde,Local authority,North West,England,True,False
+Local authority|E07000119|Fylde,E07000119,Fylde,Local authority,North West,England,True,False
+Local authority|UKD2101|Halton,UKD2101,Halton,Local authority,North West,England,True,False
+Local authority|00ET|Halton,00ET,Halton,Local authority,North West,England,True,False
+Local authority|E06000006|Halton,E06000006,Halton,Local authority,North West,England,True,False
+Local authority|UKD4304|Hyndburn,UKD4304,Hyndburn,Local authority,North West,England,True,False
+Local authority|30UG|Hyndburn,30UG,Hyndburn,Local authority,North West,England,True,False
+Local authority|E07000120|Hyndburn,E07000120,Hyndburn,Local authority,North West,England,True,False
+Local authority|UKD5101|Knowsley,UKD5101,Knowsley,Local authority,North West,England,True,False
+Local authority|00BX|Knowsley,00BX,Knowsley,Local authority,North West,England,True,False
+Local authority|E08000011|Knowsley,E08000011,Knowsley,Local authority,North West,England,True,False
+Local authority|UKD4305|Lancaster,UKD4305,Lancaster,Local authority,North West,England,True,False
+Local authority|30UH|Lancaster,30UH,Lancaster,Local authority,North West,England,True,False
+Local authority|E07000121|Lancaster,E07000121,Lancaster,Local authority,North West,England,True,False
+Local authority|UKD5200|Liverpool,UKD5200,Liverpool,Local authority,North West,England,True,False
+Local authority|00BY|Liverpool,00BY,Liverpool,Local authority,North West,England,True,False
+Local authority|E08000012|Liverpool,E08000012,Liverpool,Local authority,North West,England,True,False
+Local authority|UKD2205|Macclesfield,UKD2205,Macclesfield,Local authority,North West,England,True,False
+Local authority|UKD3101|Manchester,UKD3101,Manchester,Local authority,North West,England,True,False
+Local authority|00BN|Manchester,00BN,Manchester,Local authority,North West,England,True,False
+Local authority|E08000003|Manchester,E08000003,Manchester,Local authority,North West,England,True,False
+Local authority|UKD3203|Oldham,UKD3203,Oldham,Local authority,North West,England,True,False
+Local authority|00BP|Oldham,00BP,Oldham,Local authority,North West,England,True,False
+Local authority|E08000004|Oldham,E08000004,Oldham,Local authority,North West,England,True,False
+Local authority|UKD4306|Pendle,UKD4306,Pendle,Local authority,North West,England,True,False
+Local authority|30UJ|Pendle,30UJ,Pendle,Local authority,North West,England,True,False
+Local authority|E07000122|Pendle,E07000122,Pendle,Local authority,North West,England,True,False
+Local authority|UKD4307|Preston,UKD4307,Preston,Local authority,North West,England,True,False
+Local authority|30UK|Preston,30UK,Preston,Local authority,North West,England,True,False
+Local authority|E07000123|Preston,E07000123,Preston,Local authority,North West,England,True,False
+Local authority|UKD4308|Ribble Valley,UKD4308,Ribble Valley,Local authority,North West,England,True,False
+Local authority|30UL|Ribble Valley,30UL,Ribble Valley,Local authority,North West,England,True,False
+Local authority|E07000124|Ribble Valley,E07000124,Ribble Valley,Local authority,North West,England,True,False
+Local authority|UKD3204|Rochdale,UKD3204,Rochdale,Local authority,North West,England,True,False
+Local authority|00BQ|Rochdale,00BQ,Rochdale,Local authority,North West,England,True,False
+Local authority|E08000005|Rochdale,E08000005,Rochdale,Local authority,North West,England,True,False
+Local authority|UKD4309|Rossendale,UKD4309,Rossendale,Local authority,North West,England,True,False
+Local authority|30UM|Rossendale,30UM,Rossendale,Local authority,North West,England,True,False
+Local authority|E07000125|Rossendale,E07000125,Rossendale,Local authority,North West,England,True,False
+Local authority|UKD3102|Salford,UKD3102,Salford,Local authority,North West,England,True,False
+Local authority|00BR|Salford,00BR,Salford,Local authority,North West,England,True,False
+Local authority|E08000006|Salford,E08000006,Salford,Local authority,North West,England,True,False
+Local authority|UKD5300|Sefton,UKD5300,Sefton,Local authority,North West,England,True,False
+Local authority|00CA|Sefton,00CA,Sefton,Local authority,North West,England,True,False
+Local authority|E08000014|Sefton,E08000014,Sefton,Local authority,North West,England,True,False
+Local authority|UKD1203|South Lakeland,UKD1203,South Lakeland,Local authority,North West,England,True,False
+Local authority|16UG|South Lakeland,16UG,South Lakeland,Local authority,North West,England,True,False
+Local authority|E07000031|South Lakeland,E07000031,South Lakeland,Local authority,North West,England,True,False
+Local authority|UKD4310|South Ribble,UKD4310,South Ribble,Local authority,North West,England,True,False
+Local authority|30UN|South Ribble,30UN,South Ribble,Local authority,North West,England,True,False
+Local authority|E07000126|South Ribble,E07000126,South Ribble,Local authority,North West,England,True,False
+Local authority|UKD5102|St. Helens,UKD5102,St. Helens,Local authority,North West,England,True,False
+Local authority|00BZ|St. Helens,00BZ,St. Helens,Local authority,North West,England,True,False
+Local authority|E08000013|St. Helens,E08000013,St. Helens,Local authority,North West,England,True,False
+Local authority|UKD3103|Stockport,UKD3103,Stockport,Local authority,North West,England,True,False
+Local authority|00BS|Stockport,00BS,Stockport,Local authority,North West,England,True,False
+Local authority|E08000007|Stockport,E08000007,Stockport,Local authority,North West,England,True,False
+Local authority|UKD3104|Tameside,UKD3104,Tameside,Local authority,North West,England,True,False
+Local authority|00BT|Tameside,00BT,Tameside,Local authority,North West,England,True,False
+Local authority|E08000008|Tameside,E08000008,Tameside,Local authority,North West,England,True,False
+Local authority|UKD3105|Trafford,UKD3105,Trafford,Local authority,North West,England,True,False
+Local authority|00BU|Trafford,00BU,Trafford,Local authority,North West,England,True,False
+Local authority|E08000009|Trafford,E08000009,Trafford,Local authority,North West,England,True,False
+Local authority|UKD2206|Vale Royal,UKD2206,Vale Royal,Local authority,North West,England,True,False
+Local authority|UKD2102|Warrington,UKD2102,Warrington,Local authority,North West,England,True,False
+Local authority|00EU|Warrington,00EU,Warrington,Local authority,North West,England,True,False
+Local authority|E06000007|Warrington,E06000007,Warrington,Local authority,North West,England,True,False
+Local authority|UKD4311|West Lancashire,UKD4311,West Lancashire,Local authority,North West,England,True,False
+Local authority|30UP|West Lancashire,30UP,West Lancashire,Local authority,North West,England,True,False
+Local authority|E07000127|West Lancashire,E07000127,West Lancashire,Local authority,North West,England,True,False
+Local authority|E06000064|Westmorland and Furness,E06000064,Westmorland and Furness,Local authority,North West,England,True,False
+Local authority|UKD3205|Wigan,UKD3205,Wigan,Local authority,North West,England,True,False
+Local authority|00BW|Wigan,00BW,Wigan,Local authority,North West,England,True,False
+Local authority|E08000010|Wigan,E08000010,Wigan,Local authority,North West,England,True,False
+Local authority|UKD5400|Wirral,UKD5400,Wirral,Local authority,North West,England,True,False
+Local authority|00CB|Wirral,00CB,Wirral,Local authority,North West,England,True,False
+Local authority|E08000015|Wirral,E08000015,Wirral,Local authority,North West,England,True,False
+Local authority|UKD4312|Wyre,UKD4312,Wyre,Local authority,North West,England,True,False
+Local authority|30UQ|Wyre,30UQ,Wyre,Local authority,North West,England,True,False
+Local authority|E07000128|Wyre,E07000128,Wyre,Local authority,North West,England,True,False
+Local authority|UKJ2401|Adur,UKJ2401,Adur,Local authority,South East,England,True,False
+Local authority|45UB|Adur,45UB,Adur,Local authority,South East,England,True,False
+Local authority|E07000223|Adur,E07000223,Adur,Local authority,South East,England,True,False
+Local authority|UKJ2402|Arun,UKJ2402,Arun,Local authority,South East,England,True,False
+Local authority|45UC|Arun,45UC,Arun,Local authority,South East,England,True,False
+Local authority|E07000224|Arun,E07000224,Arun,Local authority,South East,England,True,False
+Local authority|UKJ4201|Ashford,UKJ4201,Ashford,Local authority,South East,England,True,False
+Local authority|29UB|Ashford,29UB,Ashford,Local authority,South East,England,True,False
+Local authority|E07000105|Ashford,E07000105,Ashford,Local authority,South East,England,True,False
+Local authority|UKJ1301|Aylesbury Vale,UKJ1301,Aylesbury Vale,Local authority,South East,England,True,False
+Local authority|11UB|Aylesbury Vale,11UB,Aylesbury Vale,Local authority,South East,England,True,False
+Local authority|E07000004|Aylesbury Vale,E07000004,Aylesbury Vale,Local authority,South East,England,True,False
+Local authority|UKJ3301|Basingstoke and Deane,UKJ3301,Basingstoke and Deane,Local authority,South East,England,True,False
+Local authority|24UB|Basingstoke and Deane,24UB,Basingstoke and Deane,Local authority,South East,England,True,False
+Local authority|E07000084|Basingstoke and Deane,E07000084,Basingstoke and Deane,Local authority,South East,England,True,False
+Local authority|UKJ1101|Bracknell Forest,UKJ1101,Bracknell Forest,Local authority,South East,England,True,False
+Local authority|00MA|Bracknell Forest,00MA,Bracknell Forest,Local authority,South East,England,True,False
+Local authority|E06000036|Bracknell Forest,E06000036,Bracknell Forest,Local authority,South East,England,True,False
+Local authority|UKJ2100|Brighton and Hove,UKJ2100,Brighton and Hove,Local authority,South East,England,True,False
+Local authority|00ML|Brighton and Hove,00ML,Brighton and Hove,Local authority,South East,England,True,False
+Local authority|E06000043|Brighton and Hove,E06000043,Brighton and Hove,Local authority,South East,England,True,False
+Local authority|E06000060|Buckinghamshire,E06000060,Buckinghamshire,Local authority,South East,England,True,False
+Local authority|UKJ4202|Canterbury,UKJ4202,Canterbury,Local authority,South East,England,True,False
+Local authority|29UC|Canterbury,29UC,Canterbury,Local authority,South East,England,True,False
+Local authority|E07000106|Canterbury,E07000106,Canterbury,Local authority,South East,England,True,False
+Local authority|UKJ1401|Cherwell,UKJ1401,Cherwell,Local authority,South East,England,True,False
+Local authority|38UB|Cherwell,38UB,Cherwell,Local authority,South East,England,True,False
+Local authority|E07000177|Cherwell,E07000177,Cherwell,Local authority,South East,England,True,False
+Local authority|UKJ2403|Chichester,UKJ2403,Chichester,Local authority,South East,England,True,False
+Local authority|45UD|Chichester,45UD,Chichester,Local authority,South East,England,True,False
+Local authority|E07000225|Chichester,E07000225,Chichester,Local authority,South East,England,True,False
+Local authority|UKJ1302|Chiltern,UKJ1302,Chiltern,Local authority,South East,England,True,False
+Local authority|11UC|Chiltern,11UC,Chiltern,Local authority,South East,England,True,False
+Local authority|E07000005|Chiltern,E07000005,Chiltern,Local authority,South East,England,True,False
+Local authority|UKJ2404|Crawley,UKJ2404,Crawley,Local authority,South East,England,True,False
+Local authority|45UE|Crawley,45UE,Crawley,Local authority,South East,England,True,False
+Local authority|E07000226|Crawley,E07000226,Crawley,Local authority,South East,England,True,False
+Local authority|UKJ4203|Dartford,UKJ4203,Dartford,Local authority,South East,England,True,False
+Local authority|29UD|Dartford,29UD,Dartford,Local authority,South East,England,True,False
+Local authority|E07000107|Dartford,E07000107,Dartford,Local authority,South East,England,True,False
+Local authority|UKJ4204|Dover,UKJ4204,Dover,Local authority,South East,England,True,False
+Local authority|29UE|Dover,29UE,Dover,Local authority,South East,England,True,False
+Local authority|E07000108|Dover,E07000108,Dover,Local authority,South East,England,True,False
+Local authority|UKJ3302|East Hampshire,UKJ3302,East Hampshire,Local authority,South East,England,True,False
+Local authority|24UC|East Hampshire,24UC,East Hampshire,Local authority,South East,England,True,False
+Local authority|E07000085|East Hampshire,E07000085,East Hampshire,Local authority,South East,England,True,False
+Local authority|UKJ2202|Eastbourne,UKJ2202,Eastbourne,Local authority,South East,England,True,False
+Local authority|21UC|Eastbourne,21UC,Eastbourne,Local authority,South East,England,True,False
+Local authority|E07000061|Eastbourne,E07000061,Eastbourne,Local authority,South East,England,True,False
+Local authority|UKJ3303|Eastleigh,UKJ3303,Eastleigh,Local authority,South East,England,True,False
+Local authority|24UD|Eastleigh,24UD,Eastleigh,Local authority,South East,England,True,False
+Local authority|E07000086|Eastleigh,E07000086,Eastleigh,Local authority,South East,England,True,False
+Local authority|UKJ2301|Elmbridge,UKJ2301,Elmbridge,Local authority,South East,England,True,False
+Local authority|43UB|Elmbridge,43UB,Elmbridge,Local authority,South East,England,True,False
+Local authority|E07000207|Elmbridge,E07000207,Elmbridge,Local authority,South East,England,True,False
+Local authority|UKJ2302|Epsom and Ewell,UKJ2302,Epsom and Ewell,Local authority,South East,England,True,False
+Local authority|43UC|Epsom and Ewell,43UC,Epsom and Ewell,Local authority,South East,England,True,False
+Local authority|E07000208|Epsom and Ewell,E07000208,Epsom and Ewell,Local authority,South East,England,True,False
+Local authority|UKJ3304|Fareham,UKJ3304,Fareham,Local authority,South East,England,True,False
+Local authority|24UE|Fareham,24UE,Fareham,Local authority,South East,England,True,False
+Local authority|E07000087|Fareham,E07000087,Fareham,Local authority,South East,England,True,False
+Local authority|E07000112|Folkestone and Hythe,E07000112,Folkestone and Hythe,Local authority,South East,England,True,False
+Local authority|UKJ3305|Gosport,UKJ3305,Gosport,Local authority,South East,England,True,False
+Local authority|24UF|Gosport,24UF,Gosport,Local authority,South East,England,True,False
+Local authority|E07000088|Gosport,E07000088,Gosport,Local authority,South East,England,True,False
+Local authority|UKJ4205|Gravesham,UKJ4205,Gravesham,Local authority,South East,England,True,False
+Local authority|29UG|Gravesham,29UG,Gravesham,Local authority,South East,England,True,False
+Local authority|E07000109|Gravesham,E07000109,Gravesham,Local authority,South East,England,True,False
+Local authority|UKJ2303|Guildford,UKJ2303,Guildford,Local authority,South East,England,True,False
+Local authority|43UD|Guildford,43UD,Guildford,Local authority,South East,England,True,False
+Local authority|E07000209|Guildford,E07000209,Guildford,Local authority,South East,England,True,False
+Local authority|UKJ3306|Hart,UKJ3306,Hart,Local authority,South East,England,True,False
+Local authority|24UG|Hart,24UG,Hart,Local authority,South East,England,True,False
+Local authority|E07000089|Hart,E07000089,Hart,Local authority,South East,England,True,False
+Local authority|UKJ2203|Hastings,UKJ2203,Hastings,Local authority,South East,England,True,False
+Local authority|21UD|Hastings,21UD,Hastings,Local authority,South East,England,True,False
+Local authority|E07000062|Hastings,E07000062,Hastings,Local authority,South East,England,True,False
+Local authority|UKJ3307|Havant,UKJ3307,Havant,Local authority,South East,England,True,False
+Local authority|24UH|Havant,24UH,Havant,Local authority,South East,England,True,False
+Local authority|E07000090|Havant,E07000090,Havant,Local authority,South East,England,True,False
+Local authority|UKJ2405|Horsham,UKJ2405,Horsham,Local authority,South East,England,True,False
+Local authority|45UF|Horsham,45UF,Horsham,Local authority,South East,England,True,False
+Local authority|E07000227|Horsham,E07000227,Horsham,Local authority,South East,England,True,False
+Local authority|UKJ3400|Isle of Wight,UKJ3400,Isle of Wight,Local authority,South East,England,True,False
+Local authority|00MW|Isle of Wight,00MW,Isle of Wight,Local authority,South East,England,True,False
+Local authority|E06000046|Isle of Wight,E06000046,Isle of Wight,Local authority,South East,England,True,False
+Local authority|UKJ2205|Lewes,UKJ2205,Lewes,Local authority,South East,England,True,False
+Local authority|21UF|Lewes,21UF,Lewes,Local authority,South East,England,True,False
+Local authority|E07000063|Lewes,E07000063,Lewes,Local authority,South East,England,True,False
+Local authority|UKJ4206|Maidstone,UKJ4206,Maidstone,Local authority,South East,England,True,False
+Local authority|29UH|Maidstone,29UH,Maidstone,Local authority,South East,England,True,False
+Local authority|E07000110|Maidstone,E07000110,Maidstone,Local authority,South East,England,True,False
+Local authority|UKJ4100|Medway,UKJ4100,Medway,Local authority,South East,England,True,False
+Local authority|00LC|Medway,00LC,Medway,Local authority,South East,England,True,False
+Local authority|E06000035|Medway,E06000035,Medway,Local authority,South East,England,True,False
+Local authority|UKJ2406|Mid Sussex,UKJ2406,Mid Sussex,Local authority,South East,England,True,False
+Local authority|45UG|Mid Sussex,45UG,Mid Sussex,Local authority,South East,England,True,False
+Local authority|E07000228|Mid Sussex,E07000228,Mid Sussex,Local authority,South East,England,True,False
+Local authority|UKJ1200|Milton Keynes,UKJ1200,Milton Keynes,Local authority,South East,England,True,False
+Local authority|00MG|Milton Keynes,00MG,Milton Keynes,Local authority,South East,England,True,False
+Local authority|E06000042|Milton Keynes,E06000042,Milton Keynes,Local authority,South East,England,True,False
+Local authority|UKJ2304|Mole Valley,UKJ2304,Mole Valley,Local authority,South East,England,True,False
+Local authority|43UE|Mole Valley,43UE,Mole Valley,Local authority,South East,England,True,False
+Local authority|E07000210|Mole Valley,E07000210,Mole Valley,Local authority,South East,England,True,False
+Local authority|UKJ3308|New Forest,UKJ3308,New Forest,Local authority,South East,England,True,False
+Local authority|24UJ|New Forest,24UJ,New Forest,Local authority,South East,England,True,False
+Local authority|E07000091|New Forest,E07000091,New Forest,Local authority,South East,England,True,False
+Local authority|UKJ1402|Oxford,UKJ1402,Oxford,Local authority,South East,England,True,False
+Local authority|38UC|Oxford,38UC,Oxford,Local authority,South East,England,True,False
+Local authority|E07000178|Oxford,E07000178,Oxford,Local authority,South East,England,True,False
+Local authority|UKJ3100|Portsmouth,UKJ3100,Portsmouth,Local authority,South East,England,True,False
+Local authority|00MR|Portsmouth,00MR,Portsmouth,Local authority,South East,England,True,False
+Local authority|E06000044|Portsmouth,E06000044,Portsmouth,Local authority,South East,England,True,False
+Local authority|UKJ1103|Reading,UKJ1103,Reading,Local authority,South East,England,True,False
+Local authority|00MC|Reading,00MC,Reading,Local authority,South East,England,True,False
+Local authority|E06000038|Reading,E06000038,Reading,Local authority,South East,England,True,False
+Local authority|UKJ2305|Reigate and Banstead,UKJ2305,Reigate and Banstead,Local authority,South East,England,True,False
+Local authority|43UF|Reigate and Banstead,43UF,Reigate and Banstead,Local authority,South East,England,True,False
+Local authority|E07000211|Reigate and Banstead,E07000211,Reigate and Banstead,Local authority,South East,England,True,False
+Local authority|UKJ2206|Rother,UKJ2206,Rother,Local authority,South East,England,True,False
+Local authority|21UG|Rother,21UG,Rother,Local authority,South East,England,True,False
+Local authority|E07000064|Rother,E07000064,Rother,Local authority,South East,England,True,False
+Local authority|UKJ2312|Runnymede,UKJ2312,Runnymede,Local authority,South East,England,True,False
+Local authority|43UG|Runnymede,43UG,Runnymede,Local authority,South East,England,True,False
+Local authority|E07000212|Runnymede,E07000212,Runnymede,Local authority,South East,England,True,False
+Local authority|UKJ3310|Rushmoor,UKJ3310,Rushmoor,Local authority,South East,England,True,False
+Local authority|24UL|Rushmoor,24UL,Rushmoor,Local authority,South East,England,True,False
+Local authority|E07000092|Rushmoor,E07000092,Rushmoor,Local authority,South East,England,True,False
+Local authority|UKJ4207|Sevenoaks,UKJ4207,Sevenoaks,Local authority,South East,England,True,False
+Local authority|29UK|Sevenoaks,29UK,Sevenoaks,Local authority,South East,England,True,False
+Local authority|E07000111|Sevenoaks,E07000111,Sevenoaks,Local authority,South East,England,True,False
+Local authority|UKJ4208|Shepway,UKJ4208,Shepway,Local authority,South East,England,True,False
+Local authority|29UL|Shepway,29UL,Shepway,Local authority,South East,England,True,False
+Local authority|E07000112|Shepway,E07000112,Shepway,Local authority,South East,England,True,False
+Local authority|UKJ1104|Slough,UKJ1104,Slough,Local authority,South East,England,True,False
+Local authority|00MD|Slough,00MD,Slough,Local authority,South East,England,True,False
+Local authority|E06000039|Slough,E06000039,Slough,Local authority,South East,England,True,False
+Local authority|UKJ1304|South Bucks,UKJ1304,South Bucks,Local authority,South East,England,True,False
+Local authority|11UE|South Bucks,11UE,South Bucks,Local authority,South East,England,True,False
+Local authority|E07000006|South Bucks,E07000006,South Bucks,Local authority,South East,England,True,False
+Local authority|UKJ1403|South Oxfordshire,UKJ1403,South Oxfordshire,Local authority,South East,England,True,False
+Local authority|38UD|South Oxfordshire,38UD,South Oxfordshire,Local authority,South East,England,True,False
+Local authority|E07000179|South Oxfordshire,E07000179,South Oxfordshire,Local authority,South East,England,True,False
+Local authority|UKJ3200|Southampton,UKJ3200,Southampton,Local authority,South East,England,True,False
+Local authority|00MS|Southampton,00MS,Southampton,Local authority,South East,England,True,False
+Local authority|E06000045|Southampton,E06000045,Southampton,Local authority,South East,England,True,False
+Local authority|UKJ2313|Spelthorne,UKJ2313,Spelthorne,Local authority,South East,England,True,False
+Local authority|43UH|Spelthorne,43UH,Spelthorne,Local authority,South East,England,True,False
+Local authority|E07000213|Spelthorne,E07000213,Spelthorne,Local authority,South East,England,True,False
+Local authority|UKJ2308|Surrey Heath,UKJ2308,Surrey Heath,Local authority,South East,England,True,False
+Local authority|43UJ|Surrey Heath,43UJ,Surrey Heath,Local authority,South East,England,True,False
+Local authority|E07000214|Surrey Heath,E07000214,Surrey Heath,Local authority,South East,England,True,False
+Local authority|UKJ4209|Swale,UKJ4209,Swale,Local authority,South East,England,True,False
+Local authority|29UM|Swale,29UM,Swale,Local authority,South East,England,True,False
+Local authority|E07000113|Swale,E07000113,Swale,Local authority,South East,England,True,False
+Local authority|UKJ2309|Tandridge,UKJ2309,Tandridge,Local authority,South East,England,True,False
+Local authority|43UK|Tandridge,43UK,Tandridge,Local authority,South East,England,True,False
+Local authority|E07000215|Tandridge,E07000215,Tandridge,Local authority,South East,England,True,False
+Local authority|UKJ3312|Test Valley,UKJ3312,Test Valley,Local authority,South East,England,True,False
+Local authority|24UN|Test Valley,24UN,Test Valley,Local authority,South East,England,True,False
+Local authority|E07000093|Test Valley,E07000093,Test Valley,Local authority,South East,England,True,False
+Local authority|UKJ4210|Thanet,UKJ4210,Thanet,Local authority,South East,England,True,False
+Local authority|29UN|Thanet,29UN,Thanet,Local authority,South East,England,True,False
+Local authority|E07000114|Thanet,E07000114,Thanet,Local authority,South East,England,True,False
+Local authority|UKJ4211|Tonbridge and Malling,UKJ4211,Tonbridge and Malling,Local authority,South East,England,True,False
+Local authority|29UP|Tonbridge and Malling,29UP,Tonbridge and Malling,Local authority,South East,England,True,False
+Local authority|E07000115|Tonbridge and Malling,E07000115,Tonbridge and Malling,Local authority,South East,England,True,False
+Local authority|UKJ4212|Tunbridge Wells,UKJ4212,Tunbridge Wells,Local authority,South East,England,True,False
+Local authority|29UQ|Tunbridge Wells,29UQ,Tunbridge Wells,Local authority,South East,England,True,False
+Local authority|E07000116|Tunbridge Wells,E07000116,Tunbridge Wells,Local authority,South East,England,True,False
+Local authority|UKJ1404|Vale of White Horse,UKJ1404,Vale of White Horse,Local authority,South East,England,True,False
+Local authority|38UE|Vale of White Horse,38UE,Vale of White Horse,Local authority,South East,England,True,False
+Local authority|E07000180|Vale of White Horse,E07000180,Vale of White Horse,Local authority,South East,England,True,False
+Local authority|UKJ2310|Waverley,UKJ2310,Waverley,Local authority,South East,England,True,False
+Local authority|43UL|Waverley,43UL,Waverley,Local authority,South East,England,True,False
+Local authority|E07000216|Waverley,E07000216,Waverley,Local authority,South East,England,True,False
+Local authority|UKJ2207|Wealden,UKJ2207,Wealden,Local authority,South East,England,True,False
+Local authority|21UH|Wealden,21UH,Wealden,Local authority,South East,England,True,False
+Local authority|E07000065|Wealden,E07000065,Wealden,Local authority,South East,England,True,False
+Local authority|UKJ1102|West Berkshire,UKJ1102,West Berkshire,Local authority,South East,England,True,False
+Local authority|00MB|West Berkshire,00MB,West Berkshire,Local authority,South East,England,True,False
+Local authority|E06000037|West Berkshire,E06000037,West Berkshire,Local authority,South East,England,True,False
+Local authority|UKJ1405|West Oxfordshire,UKJ1405,West Oxfordshire,Local authority,South East,England,True,False
+Local authority|38UF|West Oxfordshire,38UF,West Oxfordshire,Local authority,South East,England,True,False
+Local authority|E07000181|West Oxfordshire,E07000181,West Oxfordshire,Local authority,South East,England,True,False
+Local authority|UKJ3313|Winchester,UKJ3313,Winchester,Local authority,South East,England,True,False
+Local authority|24UP|Winchester,24UP,Winchester,Local authority,South East,England,True,False
+Local authority|E07000094|Winchester,E07000094,Winchester,Local authority,South East,England,True,False
+Local authority|UKJ1105|Windsor and Maidenhead,UKJ1105,Windsor and Maidenhead,Local authority,South East,England,True,False
+Local authority|00ME|Windsor and Maidenhead,00ME,Windsor and Maidenhead,Local authority,South East,England,True,False
+Local authority|E06000040|Windsor and Maidenhead,E06000040,Windsor and Maidenhead,Local authority,South East,England,True,False
+Local authority|UKJ2311|Woking,UKJ2311,Woking,Local authority,South East,England,True,False
+Local authority|43UM|Woking,43UM,Woking,Local authority,South East,England,True,False
+Local authority|E07000217|Woking,E07000217,Woking,Local authority,South East,England,True,False
+Local authority|UKJ1106|Wokingham,UKJ1106,Wokingham,Local authority,South East,England,True,False
+Local authority|00MF|Wokingham,00MF,Wokingham,Local authority,South East,England,True,False
+Local authority|E06000041|Wokingham,E06000041,Wokingham,Local authority,South East,England,True,False
+Local authority|UKJ2407|Worthing,UKJ2407,Worthing,Local authority,South East,England,True,False
+Local authority|45UH|Worthing,45UH,Worthing,Local authority,South East,England,True,False
+Local authority|E07000229|Worthing,E07000229,Worthing,Local authority,South East,England,True,False
+Local authority|UKJ1305|Wycombe,UKJ1305,Wycombe,Local authority,South East,England,True,False
+Local authority|11UF|Wycombe,11UF,Wycombe,Local authority,South East,England,True,False
+Local authority|E07000007|Wycombe,E07000007,Wycombe,Local authority,South East,England,True,False
+Local authority|UKK1201|Bath and North East Somerset,UKK1201,Bath and North East Somerset,Local authority,South West,England,True,False
+Local authority|00HA|Bath and North East Somerset,00HA,Bath and North East Somerset,Local authority,South West,England,True,False
+Local authority|E06000022|Bath and North East Somerset,E06000022,Bath and North East Somerset,Local authority,South West,England,True,False
+Local authority|UKK2101|Bournemouth,UKK2101,Bournemouth,Local authority,South West,England,True,False
+Local authority|00HN|Bournemouth,00HN,Bournemouth,Local authority,South West,England,True,False
+Local authority|E06000028|Bournemouth,E06000028,Bournemouth,Local authority,South West,England,True,False
+"Local authority|E06000058|Bournemouth, Christchurch and Poole",E06000058,"Bournemouth, Christchurch and Poole",Local authority,South West,England,True,False
+"Local authority|UKK1100|Bristol, City of",UKK1100,"Bristol, City of",Local authority,South West,England,True,False
+"Local authority|00HB|Bristol, City of",00HB,"Bristol, City of",Local authority,South West,England,True,False
+"Local authority|E06000023|Bristol, City of",E06000023,"Bristol, City of",Local authority,South West,England,True,False
+Local authority|UKK3001|Caradon,UKK3001,Caradon,Local authority,South West,England,True,False
+Local authority|UKK3002|Carrick,UKK3002,Carrick,Local authority,South West,England,True,False
+Local authority|UKK1301|Cheltenham,UKK1301,Cheltenham,Local authority,South West,England,True,False
+Local authority|23UB|Cheltenham,23UB,Cheltenham,Local authority,South West,England,True,False
+Local authority|E07000078|Cheltenham,E07000078,Cheltenham,Local authority,South West,England,True,False
+Local authority|UKK2202|Christchurch,UKK2202,Christchurch,Local authority,South West,England,True,False
+Local authority|19UC|Christchurch,19UC,Christchurch,Local authority,South West,England,True,False
+Local authority|E07000048|Christchurch,E07000048,Christchurch,Local authority,South West,England,True,False
+Local authority|00HE|Cornwall,00HE,Cornwall,Local authority,South West,England,True,False
+Local authority|E06000052|Cornwall,E06000052,Cornwall,Local authority,South West,England,True,False
+Local authority|UKK1302|Cotswold,UKK1302,Cotswold,Local authority,South West,England,True,False
+Local authority|23UC|Cotswold,23UC,Cotswold,Local authority,South West,England,True,False
+Local authority|E07000079|Cotswold,E07000079,Cotswold,Local authority,South West,England,True,False
+Local authority|E06000059|Dorset,E06000059,Dorset,Local authority,South West,England,True,False
+Local authority|UKK4301|East Devon,UKK4301,East Devon,Local authority,South West,England,True,False
+Local authority|18UB|East Devon,18UB,East Devon,Local authority,South West,England,True,False
+Local authority|E07000040|East Devon,E07000040,East Devon,Local authority,South West,England,True,False
+Local authority|UKK2203|East Dorset,UKK2203,East Dorset,Local authority,South West,England,True,False
+Local authority|19UD|East Dorset,19UD,East Dorset,Local authority,South West,England,True,False
+Local authority|E07000049|East Dorset,E07000049,East Dorset,Local authority,South West,England,True,False
+Local authority|UKK4302|Exeter,UKK4302,Exeter,Local authority,South West,England,True,False
+Local authority|18UC|Exeter,18UC,Exeter,Local authority,South West,England,True,False
+Local authority|E07000041|Exeter,E07000041,Exeter,Local authority,South West,England,True,False
+Local authority|UKK1303|Forest of Dean,UKK1303,Forest of Dean,Local authority,South West,England,True,False
+Local authority|23UD|Forest of Dean,23UD,Forest of Dean,Local authority,South West,England,True,False
+Local authority|E07000080|Forest of Dean,E07000080,Forest of Dean,Local authority,South West,England,True,False
+Local authority|UKK1304|Gloucester,UKK1304,Gloucester,Local authority,South West,England,True,False
+Local authority|23UE|Gloucester,23UE,Gloucester,Local authority,South West,England,True,False
+Local authority|E07000081|Gloucester,E07000081,Gloucester,Local authority,South West,England,True,False
+Local authority|UKK3007|Isles of Scilly,UKK3007,Isles of Scilly,Local authority,South West,England,True,False
+Local authority|00HF|Isles of Scilly,00HF,Isles of Scilly,Local authority,South West,England,True,False
+Local authority|E06000053|Isles of Scilly,E06000053,Isles of Scilly,Local authority,South West,England,True,False
+Local authority|UKK1501|Kennet,UKK1501,Kennet,Local authority,South West,England,True,False
+Local authority|UKK3003|Kerrier,UKK3003,Kerrier,Local authority,South West,England,True,False
+Local authority|UKK2301|Mendip,UKK2301,Mendip,Local authority,South West,England,True,False
+Local authority|40UB|Mendip,40UB,Mendip,Local authority,South West,England,True,False
+Local authority|E07000187|Mendip,E07000187,Mendip,Local authority,South West,England,True,False
+Local authority|UKK4303|Mid Devon,UKK4303,Mid Devon,Local authority,South West,England,True,False
+Local authority|18UD|Mid Devon,18UD,Mid Devon,Local authority,South West,England,True,False
+Local authority|E07000042|Mid Devon,E07000042,Mid Devon,Local authority,South West,England,True,False
+Local authority|UKK3004|North Cornwall,UKK3004,North Cornwall,Local authority,South West,England,True,False
+Local authority|UKK4304|North Devon,UKK4304,North Devon,Local authority,South West,England,True,False
+Local authority|18UE|North Devon,18UE,North Devon,Local authority,South West,England,True,False
+Local authority|E07000043|North Devon,E07000043,North Devon,Local authority,South West,England,True,False
+Local authority|UKK2204|North Dorset,UKK2204,North Dorset,Local authority,South West,England,True,False
+Local authority|19UE|North Dorset,19UE,North Dorset,Local authority,South West,England,True,False
+Local authority|E07000050|North Dorset,E07000050,North Dorset,Local authority,South West,England,True,False
+Local authority|UKK1202|North Somerset,UKK1202,North Somerset,Local authority,South West,England,True,False
+Local authority|00HC|North Somerset,00HC,North Somerset,Local authority,South West,England,True,False
+Local authority|E06000024|North Somerset,E06000024,North Somerset,Local authority,South West,England,True,False
+Local authority|UKK1502|North Wiltshire,UKK1502,North Wiltshire,Local authority,South West,England,True,False
+Local authority|UKK3005|Penwith,UKK3005,Penwith,Local authority,South West,England,True,False
+Local authority|UKK4100|Plymouth,UKK4100,Plymouth,Local authority,South West,England,True,False
+Local authority|00HG|Plymouth,00HG,Plymouth,Local authority,South West,England,True,False
+Local authority|E06000026|Plymouth,E06000026,Plymouth,Local authority,South West,England,True,False
+Local authority|UKK2102|Poole,UKK2102,Poole,Local authority,South West,England,True,False
+Local authority|00HP|Poole,00HP,Poole,Local authority,South West,England,True,False
+Local authority|E06000029|Poole,E06000029,Poole,Local authority,South West,England,True,False
+Local authority|UKK2206|Purbeck,UKK2206,Purbeck,Local authority,South West,England,True,False
+Local authority|19UG|Purbeck,19UG,Purbeck,Local authority,South West,England,True,False
+Local authority|E07000051|Purbeck,E07000051,Purbeck,Local authority,South West,England,True,False
+Local authority|UKK3006|Restormel,UKK3006,Restormel,Local authority,South West,England,True,False
+Local authority|UKK1503|Salisbury,UKK1503,Salisbury,Local authority,South West,England,True,False
+Local authority|UKK2302|Sedgemoor,UKK2302,Sedgemoor,Local authority,South West,England,True,False
+Local authority|40UC|Sedgemoor,40UC,Sedgemoor,Local authority,South West,England,True,False
+Local authority|E07000188|Sedgemoor,E07000188,Sedgemoor,Local authority,South West,England,True,False
+Local authority|E06000066|Somerset,E06000066,Somerset,Local authority,South West,England,True,False
+Local authority|E07000246|Somerset West and Taunton,E07000246,Somerset West and Taunton,Local authority,South West,England,True,False
+Local authority|UKK1203|South Gloucestershire,UKK1203,South Gloucestershire,Local authority,South West,England,True,False
+Local authority|00HD|South Gloucestershire,00HD,South Gloucestershire,Local authority,South West,England,True,False
+Local authority|E06000025|South Gloucestershire,E06000025,South Gloucestershire,Local authority,South West,England,True,False
+Local authority|UKK4305|South Hams,UKK4305,South Hams,Local authority,South West,England,True,False
+Local authority|18UG|South Hams,18UG,South Hams,Local authority,South West,England,True,False
+Local authority|E07000044|South Hams,E07000044,South Hams,Local authority,South West,England,True,False
+Local authority|UKK2303|South Somerset,UKK2303,South Somerset,Local authority,South West,England,True,False
+Local authority|40UD|South Somerset,40UD,South Somerset,Local authority,South West,England,True,False
+Local authority|E07000189|South Somerset,E07000189,South Somerset,Local authority,South West,England,True,False
+Local authority|UKK1305|Stroud,UKK1305,Stroud,Local authority,South West,England,True,False
+Local authority|23UF|Stroud,23UF,Stroud,Local authority,South West,England,True,False
+Local authority|E07000082|Stroud,E07000082,Stroud,Local authority,South West,England,True,False
+Local authority|UKK1400|Swindon,UKK1400,Swindon,Local authority,South West,England,True,False
+Local authority|00HX|Swindon,00HX,Swindon,Local authority,South West,England,True,False
+Local authority|E06000030|Swindon,E06000030,Swindon,Local authority,South West,England,True,False
+Local authority|UKK2304|Taunton Deane,UKK2304,Taunton Deane,Local authority,South West,England,True,False
+Local authority|40UE|Taunton Deane,40UE,Taunton Deane,Local authority,South West,England,True,False
+Local authority|E07000190|Taunton Deane,E07000190,Taunton Deane,Local authority,South West,England,True,False
+Local authority|UKK4306|Teignbridge,UKK4306,Teignbridge,Local authority,South West,England,True,False
+Local authority|18UH|Teignbridge,18UH,Teignbridge,Local authority,South West,England,True,False
+Local authority|E07000045|Teignbridge,E07000045,Teignbridge,Local authority,South West,England,True,False
+Local authority|UKK1306|Tewkesbury,UKK1306,Tewkesbury,Local authority,South West,England,True,False
+Local authority|23UG|Tewkesbury,23UG,Tewkesbury,Local authority,South West,England,True,False
+Local authority|E07000083|Tewkesbury,E07000083,Tewkesbury,Local authority,South West,England,True,False
+Local authority|UKK4200|Torbay,UKK4200,Torbay,Local authority,South West,England,True,False
+Local authority|00HH|Torbay,00HH,Torbay,Local authority,South West,England,True,False
+Local authority|E06000027|Torbay,E06000027,Torbay,Local authority,South West,England,True,False
+Local authority|UKK4307|Torridge,UKK4307,Torridge,Local authority,South West,England,True,False
+Local authority|18UK|Torridge,18UK,Torridge,Local authority,South West,England,True,False
+Local authority|E07000046|Torridge,E07000046,Torridge,Local authority,South West,England,True,False
+Local authority|UKK4308|West Devon,UKK4308,West Devon,Local authority,South West,England,True,False
+Local authority|18UL|West Devon,18UL,West Devon,Local authority,South West,England,True,False
+Local authority|E07000047|West Devon,E07000047,West Devon,Local authority,South West,England,True,False
+Local authority|UKK2207|West Dorset,UKK2207,West Dorset,Local authority,South West,England,True,False
+Local authority|19UH|West Dorset,19UH,West Dorset,Local authority,South West,England,True,False
+Local authority|E07000052|West Dorset,E07000052,West Dorset,Local authority,South West,England,True,False
+Local authority|UKK2305|West Somerset,UKK2305,West Somerset,Local authority,South West,England,True,False
+Local authority|40UF|West Somerset,40UF,West Somerset,Local authority,South West,England,True,False
+Local authority|E07000191|West Somerset,E07000191,West Somerset,Local authority,South West,England,True,False
+Local authority|UKK1505|West Wiltshire,UKK1505,West Wiltshire,Local authority,South West,England,True,False
+Local authority|UKK2208|Weymouth and Portland,UKK2208,Weymouth and Portland,Local authority,South West,England,True,False
+Local authority|19UJ|Weymouth and Portland,19UJ,Weymouth and Portland,Local authority,South West,England,True,False
+Local authority|E07000053|Weymouth and Portland,E07000053,Weymouth and Portland,Local authority,South West,England,True,False
+Local authority|00HY|Wiltshire,00HY,Wiltshire,Local authority,South West,England,True,False
+Local authority|E06000054|Wiltshire,E06000054,Wiltshire,Local authority,South West,England,True,False
+Local authority|UKG3100|Birmingham,UKG3100,Birmingham,Local authority,West Midlands,England,True,False
+Local authority|00CN|Birmingham,00CN,Birmingham,Local authority,West Midlands,England,True,False
+Local authority|E08000025|Birmingham,E08000025,Birmingham,Local authority,West Midlands,England,True,False
+Local authority|UKG2201|Bridgnorth,UKG2201,Bridgnorth,Local authority,West Midlands,England,True,False
+Local authority|UKG1201|Bromsgrove,UKG1201,Bromsgrove,Local authority,West Midlands,England,True,False
+Local authority|47UB|Bromsgrove,47UB,Bromsgrove,Local authority,West Midlands,England,True,False
+Local authority|E07000234|Bromsgrove,E07000234,Bromsgrove,Local authority,West Midlands,England,True,False
+Local authority|UKG2401|Cannock Chase,UKG2401,Cannock Chase,Local authority,West Midlands,England,True,False
+Local authority|41UB|Cannock Chase,41UB,Cannock Chase,Local authority,West Midlands,England,True,False
+Local authority|E07000192|Cannock Chase,E07000192,Cannock Chase,Local authority,West Midlands,England,True,False
+Local authority|UKG3300|Coventry,UKG3300,Coventry,Local authority,West Midlands,England,True,False
+Local authority|00CQ|Coventry,00CQ,Coventry,Local authority,West Midlands,England,True,False
+Local authority|E08000026|Coventry,E08000026,Coventry,Local authority,West Midlands,England,True,False
+Local authority|UKG3401|Dudley,UKG3401,Dudley,Local authority,West Midlands,England,True,False
+Local authority|00CR|Dudley,00CR,Dudley,Local authority,West Midlands,England,True,False
+Local authority|E08000027|Dudley,E08000027,Dudley,Local authority,West Midlands,England,True,False
+Local authority|UKG2402|East Staffordshire,UKG2402,East Staffordshire,Local authority,West Midlands,England,True,False
+Local authority|41UC|East Staffordshire,41UC,East Staffordshire,Local authority,West Midlands,England,True,False
+Local authority|E07000193|East Staffordshire,E07000193,East Staffordshire,Local authority,West Midlands,England,True,False
+"Local authority|UKG1100|Herefordshire, County of",UKG1100,"Herefordshire, County of",Local authority,West Midlands,England,True,False
+"Local authority|00GA|Herefordshire, County of",00GA,"Herefordshire, County of",Local authority,West Midlands,England,True,False
+"Local authority|E06000019|Herefordshire, County of",E06000019,"Herefordshire, County of",Local authority,West Midlands,England,True,False
+Local authority|UKG2403|Lichfield,UKG2403,Lichfield,Local authority,West Midlands,England,True,False
+Local authority|41UD|Lichfield,41UD,Lichfield,Local authority,West Midlands,England,True,False
+Local authority|E07000194|Lichfield,E07000194,Lichfield,Local authority,West Midlands,England,True,False
+Local authority|UKG1202|Malvern Hills,UKG1202,Malvern Hills,Local authority,West Midlands,England,True,False
+Local authority|47UC|Malvern Hills,47UC,Malvern Hills,Local authority,West Midlands,England,True,False
+Local authority|E07000235|Malvern Hills,E07000235,Malvern Hills,Local authority,West Midlands,England,True,False
+Local authority|UKG2404|Newcastle-under-Lyme,UKG2404,Newcastle-under-Lyme,Local authority,West Midlands,England,True,False
+Local authority|41UE|Newcastle-under-Lyme,41UE,Newcastle-under-Lyme,Local authority,West Midlands,England,True,False
+Local authority|E07000195|Newcastle-under-Lyme,E07000195,Newcastle-under-Lyme,Local authority,West Midlands,England,True,False
+Local authority|UKG2202|North Shropshire,UKG2202,North Shropshire,Local authority,West Midlands,England,True,False
+Local authority|UKG1301|North Warwickshire,UKG1301,North Warwickshire,Local authority,West Midlands,England,True,False
+Local authority|44UB|North Warwickshire,44UB,North Warwickshire,Local authority,West Midlands,England,True,False
+Local authority|E07000218|North Warwickshire,E07000218,North Warwickshire,Local authority,West Midlands,England,True,False
+Local authority|UKG1302|Nuneaton and Bedworth,UKG1302,Nuneaton and Bedworth,Local authority,West Midlands,England,True,False
+Local authority|44UC|Nuneaton and Bedworth,44UC,Nuneaton and Bedworth,Local authority,West Midlands,England,True,False
+Local authority|E07000219|Nuneaton and Bedworth,E07000219,Nuneaton and Bedworth,Local authority,West Midlands,England,True,False
+Local authority|UKG2203|Oswestry,UKG2203,Oswestry,Local authority,West Midlands,England,True,False
+Local authority|UKG1203|Redditch,UKG1203,Redditch,Local authority,West Midlands,England,True,False
+Local authority|47UD|Redditch,47UD,Redditch,Local authority,West Midlands,England,True,False
+Local authority|E07000236|Redditch,E07000236,Redditch,Local authority,West Midlands,England,True,False
+Local authority|UKG1303|Rugby,UKG1303,Rugby,Local authority,West Midlands,England,True,False
+Local authority|44UD|Rugby,44UD,Rugby,Local authority,West Midlands,England,True,False
+Local authority|E07000220|Rugby,E07000220,Rugby,Local authority,West Midlands,England,True,False
+Local authority|UKG3402|Sandwell,UKG3402,Sandwell,Local authority,West Midlands,England,True,False
+Local authority|00CS|Sandwell,00CS,Sandwell,Local authority,West Midlands,England,True,False
+Local authority|E08000028|Sandwell,E08000028,Sandwell,Local authority,West Midlands,England,True,False
+Local authority|UKG2204|Shrewsbury and Atcham,UKG2204,Shrewsbury and Atcham,Local authority,West Midlands,England,True,False
+Local authority|00GG|Shropshire,00GG,Shropshire,Local authority,West Midlands,England,True,False
+Local authority|E06000051|Shropshire,E06000051,Shropshire,Local authority,West Midlands,England,True,False
+Local authority|UKG3200|Solihull,UKG3200,Solihull,Local authority,West Midlands,England,True,False
+Local authority|00CT|Solihull,00CT,Solihull,Local authority,West Midlands,England,True,False
+Local authority|E08000029|Solihull,E08000029,Solihull,Local authority,West Midlands,England,True,False
+Local authority|UKG2205|South Shropshire,UKG2205,South Shropshire,Local authority,West Midlands,England,True,False
+Local authority|UKG2405|South Staffordshire,UKG2405,South Staffordshire,Local authority,West Midlands,England,True,False
+Local authority|41UF|South Staffordshire,41UF,South Staffordshire,Local authority,West Midlands,England,True,False
+Local authority|E07000196|South Staffordshire,E07000196,South Staffordshire,Local authority,West Midlands,England,True,False
+Local authority|UKG2406|Stafford,UKG2406,Stafford,Local authority,West Midlands,England,True,False
+Local authority|41UG|Stafford,41UG,Stafford,Local authority,West Midlands,England,True,False
+Local authority|E07000197|Stafford,E07000197,Stafford,Local authority,West Midlands,England,True,False
+Local authority|UKG2407|Staffordshire Moorlands,UKG2407,Staffordshire Moorlands,Local authority,West Midlands,England,True,False
+Local authority|41UH|Staffordshire Moorlands,41UH,Staffordshire Moorlands,Local authority,West Midlands,England,True,False
+Local authority|E07000198|Staffordshire Moorlands,E07000198,Staffordshire Moorlands,Local authority,West Midlands,England,True,False
+Local authority|UKG2300|Stoke-on-Trent,UKG2300,Stoke-on-Trent,Local authority,West Midlands,England,True,False
+Local authority|00GL|Stoke-on-Trent,00GL,Stoke-on-Trent,Local authority,West Midlands,England,True,False
+Local authority|E06000021|Stoke-on-Trent,E06000021,Stoke-on-Trent,Local authority,West Midlands,England,True,False
+Local authority|UKG1304|Stratford-on-Avon,UKG1304,Stratford-on-Avon,Local authority,West Midlands,England,True,False
+Local authority|44UE|Stratford-on-Avon,44UE,Stratford-on-Avon,Local authority,West Midlands,England,True,False
+Local authority|E07000221|Stratford-on-Avon,E07000221,Stratford-on-Avon,Local authority,West Midlands,England,True,False
+Local authority|UKG2408|Tamworth,UKG2408,Tamworth,Local authority,West Midlands,England,True,False
+Local authority|41UK|Tamworth,41UK,Tamworth,Local authority,West Midlands,England,True,False
+Local authority|E07000199|Tamworth,E07000199,Tamworth,Local authority,West Midlands,England,True,False
+Local authority|UKG2100|Telford and Wrekin,UKG2100,Telford and Wrekin,Local authority,West Midlands,England,True,False
+Local authority|00GF|Telford and Wrekin,00GF,Telford and Wrekin,Local authority,West Midlands,England,True,False
+Local authority|E06000020|Telford and Wrekin,E06000020,Telford and Wrekin,Local authority,West Midlands,England,True,False
+Local authority|UKG3501|Walsall,UKG3501,Walsall,Local authority,West Midlands,England,True,False
+Local authority|00CU|Walsall,00CU,Walsall,Local authority,West Midlands,England,True,False
+Local authority|E08000030|Walsall,E08000030,Walsall,Local authority,West Midlands,England,True,False
+Local authority|UKG1305|Warwick,UKG1305,Warwick,Local authority,West Midlands,England,True,False
+Local authority|44UF|Warwick,44UF,Warwick,Local authority,West Midlands,England,True,False
+Local authority|E07000222|Warwick,E07000222,Warwick,Local authority,West Midlands,England,True,False
+Local authority|UKG3502|Wolverhampton,UKG3502,Wolverhampton,Local authority,West Midlands,England,True,False
+Local authority|00CW|Wolverhampton,00CW,Wolverhampton,Local authority,West Midlands,England,True,False
+Local authority|E08000031|Wolverhampton,E08000031,Wolverhampton,Local authority,West Midlands,England,True,False
+Local authority|UKG1204|Worcester,UKG1204,Worcester,Local authority,West Midlands,England,True,False
+Local authority|47UE|Worcester,47UE,Worcester,Local authority,West Midlands,England,True,False
+Local authority|E07000237|Worcester,E07000237,Worcester,Local authority,West Midlands,England,True,False
+Local authority|UKG1205|Wychavon,UKG1205,Wychavon,Local authority,West Midlands,England,True,False
+Local authority|47UF|Wychavon,47UF,Wychavon,Local authority,West Midlands,England,True,False
+Local authority|E07000238|Wychavon,E07000238,Wychavon,Local authority,West Midlands,England,True,False
+Local authority|UKG1206|Wyre Forest,UKG1206,Wyre Forest,Local authority,West Midlands,England,True,False
+Local authority|47UG|Wyre Forest,47UG,Wyre Forest,Local authority,West Midlands,England,True,False
+Local authority|E07000239|Wyre Forest,E07000239,Wyre Forest,Local authority,West Midlands,England,True,False
+Local authority|UKE3101|Barnsley,UKE3101,Barnsley,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00CC|Barnsley,00CC,Barnsley,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000016|Barnsley,E08000016,Barnsley,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000038|Barnsley,E08000038,Barnsley,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE4100|Bradford,UKE4100,Bradford,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00CX|Bradford,00CX,Bradford,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000032|Bradford,E08000032,Bradford,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE4301|Calderdale,UKE4301,Calderdale,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00CY|Calderdale,00CY,Calderdale,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000033|Calderdale,E08000033,Calderdale,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2201|Craven,UKE2201,Craven,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|36UB|Craven,36UB,Craven,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E07000163|Craven,E07000163,Craven,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE3102|Doncaster,UKE3102,Doncaster,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00CE|Doncaster,00CE,Doncaster,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000017|Doncaster,E08000017,Doncaster,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE1200|East Riding of Yorkshire,UKE1200,East Riding of Yorkshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00FB|East Riding of Yorkshire,00FB,East Riding of Yorkshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E06000011|East Riding of Yorkshire,E06000011,East Riding of Yorkshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2202|Hambleton,UKE2202,Hambleton,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|36UC|Hambleton,36UC,Hambleton,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E07000164|Hambleton,E07000164,Hambleton,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2203|Harrogate,UKE2203,Harrogate,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|36UD|Harrogate,36UD,Harrogate,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E07000165|Harrogate,E07000165,Harrogate,Local authority,Yorkshire and The Humber,England,True,False
+"Local authority|UKE1100|Kingston upon Hull, City of",UKE1100,"Kingston upon Hull, City of",Local authority,Yorkshire and The Humber,England,True,False
+"Local authority|00FA|Kingston upon Hull, City of",00FA,"Kingston upon Hull, City of",Local authority,Yorkshire and The Humber,England,True,False
+"Local authority|E06000010|Kingston upon Hull, City of",E06000010,"Kingston upon Hull, City of",Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE4302|Kirklees,UKE4302,Kirklees,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00CZ|Kirklees,00CZ,Kirklees,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000034|Kirklees,E08000034,Kirklees,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE4200|Leeds,UKE4200,Leeds,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00DA|Leeds,00DA,Leeds,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000035|Leeds,E08000035,Leeds,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE1301|North East Lincolnshire,UKE1301,North East Lincolnshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00FC|North East Lincolnshire,00FC,North East Lincolnshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E06000012|North East Lincolnshire,E06000012,North East Lincolnshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE1302|North Lincolnshire,UKE1302,North Lincolnshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00FD|North Lincolnshire,00FD,North Lincolnshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E06000013|North Lincolnshire,E06000013,North Lincolnshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E06000065|North Yorkshire,E06000065,North Yorkshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2204|Richmondshire,UKE2204,Richmondshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|36UE|Richmondshire,36UE,Richmondshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E07000166|Richmondshire,E07000166,Richmondshire,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE3103|Rotherham,UKE3103,Rotherham,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00CF|Rotherham,00CF,Rotherham,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000018|Rotherham,E08000018,Rotherham,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2205|Ryedale,UKE2205,Ryedale,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|36UF|Ryedale,36UF,Ryedale,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E07000167|Ryedale,E07000167,Ryedale,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2206|Scarborough,UKE2206,Scarborough,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|36UG|Scarborough,36UG,Scarborough,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E07000168|Scarborough,E07000168,Scarborough,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2207|Selby,UKE2207,Selby,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|36UH|Selby,36UH,Selby,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E07000169|Selby,E07000169,Selby,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE3200|Sheffield,UKE3200,Sheffield,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00CG|Sheffield,00CG,Sheffield,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000019|Sheffield,E08000019,Sheffield,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000039|Sheffield,E08000039,Sheffield,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE4303|Wakefield,UKE4303,Wakefield,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00DB|Wakefield,00DB,Wakefield,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E08000036|Wakefield,E08000036,Wakefield,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKE2100|York,UKE2100,York,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|00FF|York,00FF,York,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|E06000014|York,E06000014,York,Local authority,Yorkshire and The Humber,England,True,False
+Local authority|UKM1001|Aberdeen City,UKM1001,Aberdeen City,Local authority,Scotland,Scotland,True,False
+Local authority|00QA|Aberdeen City,00QA,Aberdeen City,Local authority,Scotland,Scotland,True,False
+Local authority|S12000033|Aberdeen City,S12000033,Aberdeen City,Local authority,Scotland,Scotland,True,False
+Local authority|UKM1002|Aberdeenshire,UKM1002,Aberdeenshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QB|Aberdeenshire,00QB,Aberdeenshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000034|Aberdeenshire,S12000034,Aberdeenshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2101|Angus,UKM2101,Angus,Local authority,Scotland,Scotland,True,False
+Local authority|00QC|Angus,00QC,Angus,Local authority,Scotland,Scotland,True,False
+Local authority|S12000041|Angus,S12000041,Angus,Local authority,Scotland,Scotland,True,False
+"Local authority|UKM3101, UKM4302, UKM4303|Argyll and Bute","UKM3101, UKM4302, UKM4303",Argyll and Bute,Local authority,Scotland,Scotland,True,False
+Local authority|00QD|Argyll and Bute,00QD,Argyll and Bute,Local authority,Scotland,Scotland,True,False
+Local authority|S12000035|Argyll and Bute,S12000035,Argyll and Bute,Local authority,Scotland,Scotland,True,False
+"Local authority|UKM3101, UKM4303|Argyll and Bute","UKM3101, UKM4303",Argyll and Bute,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2500|City of Edinburgh,UKM2500,City of Edinburgh,Local authority,Scotland,Scotland,True,False
+Local authority|00QP|City of Edinburgh,00QP,City of Edinburgh,Local authority,Scotland,Scotland,True,False
+Local authority|S12000036|City of Edinburgh,S12000036,City of Edinburgh,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2201|Clackmannanshire,UKM2201,Clackmannanshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QF|Clackmannanshire,00QF,Clackmannanshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000005|Clackmannanshire,S12000005,Clackmannanshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3200|Dumfries and Galloway,UKM3200,Dumfries and Galloway,Local authority,Scotland,Scotland,True,False
+Local authority|00QH|Dumfries and Galloway,00QH,Dumfries and Galloway,Local authority,Scotland,Scotland,True,False
+Local authority|S12000006|Dumfries and Galloway,S12000006,Dumfries and Galloway,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2102|Dundee City,UKM2102,Dundee City,Local authority,Scotland,Scotland,True,False
+Local authority|00QJ|Dundee City,00QJ,Dundee City,Local authority,Scotland,Scotland,True,False
+Local authority|S12000042|Dundee City,S12000042,Dundee City,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3301|East Ayrshire,UKM3301,East Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QK|East Ayrshire,00QK,East Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000008|East Ayrshire,S12000008,East Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3103|East Dunbartonshire,UKM3103,East Dunbartonshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QL|East Dunbartonshire,00QL,East Dunbartonshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000045|East Dunbartonshire,S12000045,East Dunbartonshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2301|East Lothian,UKM2301,East Lothian,Local authority,Scotland,Scotland,True,False
+Local authority|00QM|East Lothian,00QM,East Lothian,Local authority,Scotland,Scotland,True,False
+Local authority|S12000010|East Lothian,S12000010,East Lothian,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3501|East Renfrewshire,UKM3501,East Renfrewshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QN|East Renfrewshire,00QN,East Renfrewshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000011|East Renfrewshire,S12000011,East Renfrewshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2600|Falkirk,UKM2600,Falkirk,Local authority,Scotland,Scotland,True,False
+Local authority|00QQ|Falkirk,00QQ,Falkirk,Local authority,Scotland,Scotland,True,False
+Local authority|S12000014|Falkirk,S12000014,Falkirk,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2202|Fife,UKM2202,Fife,Local authority,Scotland,Scotland,True,False
+Local authority|00QR|Fife,00QR,Fife,Local authority,Scotland,Scotland,True,False
+Local authority|S12000015|Fife,S12000015,Fife,Local authority,Scotland,Scotland,True,False
+Local authority|S12000047|Fife,S12000047,Fife,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3400|Glasgow City,UKM3400,Glasgow City,Local authority,Scotland,Scotland,True,False
+Local authority|00QS|Glasgow City,00QS,Glasgow City,Local authority,Scotland,Scotland,True,False
+Local authority|S12000046|Glasgow City,S12000046,Glasgow City,Local authority,Scotland,Scotland,True,False
+Local authority|S12000049|Glasgow City,S12000049,Glasgow City,Local authority,Scotland,Scotland,True,False
+"Local authority|UKM4101, UKM4102, UKM4201, UKM4202, UKM4304, UKM4305|Highland","UKM4101, UKM4102, UKM4201, UKM4202, UKM4304, UKM4305",Highland,Local authority,Scotland,Scotland,True,False
+Local authority|00QT|Highland,00QT,Highland,Local authority,Scotland,Scotland,True,False
+Local authority|S12000017|Highland,S12000017,Highland,Local authority,Scotland,Scotland,True,False
+"Local authority|UKM4101, UKM4102, UKM4201|Highland","UKM4101, UKM4102, UKM4201",Highland,Local authority,Scotland,Scotland,True,False
+Local authority|00QT|Highlands,00QT,Highlands,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3503|Inverclyde,UKM3503,Inverclyde,Local authority,Scotland,Scotland,True,False
+Local authority|00QU|Inverclyde,00QU,Inverclyde,Local authority,Scotland,Scotland,True,False
+Local authority|S12000018|Inverclyde,S12000018,Inverclyde,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2302|Midlothian,UKM2302,Midlothian,Local authority,Scotland,Scotland,True,False
+Local authority|00QW|Midlothian,00QW,Midlothian,Local authority,Scotland,Scotland,True,False
+Local authority|S12000019|Midlothian,S12000019,Midlothian,Local authority,Scotland,Scotland,True,False
+"Local authority|UKM1003, UKM4203|Moray","UKM1003, UKM4203",Moray,Local authority,Scotland,Scotland,True,False
+Local authority|00QX|Moray,00QX,Moray,Local authority,Scotland,Scotland,True,False
+Local authority|S12000020|Moray,S12000020,Moray,Local authority,Scotland,Scotland,True,False
+Local authority|UKM4400|Na h-Eileanan Siar,UKM4400,Na h-Eileanan Siar,Local authority,Scotland,Scotland,True,False
+Local authority|00RJ|Na h-Eileanan Siar,00RJ,Na h-Eileanan Siar,Local authority,Scotland,Scotland,True,False
+Local authority|S12000013|Na h-Eileanan Siar,S12000013,Na h-Eileanan Siar,Local authority,Scotland,Scotland,True,False
+"Local authority|UKM3302, UKM4301|North Ayrshire","UKM3302, UKM4301",North Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QY|North Ayrshire,00QY,North Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000021|North Ayrshire,S12000021,North Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3302|North Ayrshire,UKM3302,North Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3600|North Lanarkshire,UKM3600,North Lanarkshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QZ|North Lanarkshire,00QZ,North Lanarkshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000044|North Lanarkshire,S12000044,North Lanarkshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000050|North Lanarkshire,S12000050,North Lanarkshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM4500|Orkney Islands,UKM4500,Orkney Islands,Local authority,Scotland,Scotland,True,False
+Local authority|00RA|Orkney Islands,00RA,Orkney Islands,Local authority,Scotland,Scotland,True,False
+Local authority|S12000023|Orkney Islands,S12000023,Orkney Islands,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2701|Perth and Kinross,UKM2701,Perth and Kinross,Local authority,Scotland,Scotland,True,False
+Local authority|00RB|Perth and Kinross,00RB,Perth and Kinross,Local authority,Scotland,Scotland,True,False
+Local authority|S12000024|Perth and Kinross,S12000024,Perth and Kinross,Local authority,Scotland,Scotland,True,False
+Local authority|S12000048|Perth and Kinross,S12000048,Perth and Kinross,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3502|Renfrewshire,UKM3502,Renfrewshire,Local authority,Scotland,Scotland,True,False
+Local authority|00RC|Renfrewshire,00RC,Renfrewshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000038|Renfrewshire,S12000038,Renfrewshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2400|Scottish Borders,UKM2400,Scottish Borders,Local authority,Scotland,Scotland,True,False
+Local authority|00QE|Scottish Borders,00QE,Scottish Borders,Local authority,Scotland,Scotland,True,False
+Local authority|S12000026|Scottish Borders,S12000026,Scottish Borders,Local authority,Scotland,Scotland,True,False
+Local authority|UKM4600|Shetland Islands,UKM4600,Shetland Islands,Local authority,Scotland,Scotland,True,False
+Local authority|00RD|Shetland Islands,00RD,Shetland Islands,Local authority,Scotland,Scotland,True,False
+Local authority|S12000027|Shetland Islands,S12000027,Shetland Islands,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3700|South Ayrshire,UKM3700,South Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|00RE|South Ayrshire,00RE,South Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000028|South Ayrshire,S12000028,South Ayrshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3800|South Lanarkshire,UKM3800,South Lanarkshire,Local authority,Scotland,Scotland,True,False
+Local authority|00RF|South Lanarkshire,00RF,South Lanarkshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000029|South Lanarkshire,S12000029,South Lanarkshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2702|Stirling,UKM2702,Stirling,Local authority,Scotland,Scotland,True,False
+Local authority|00RG|Stirling,00RG,Stirling,Local authority,Scotland,Scotland,True,False
+Local authority|S12000030|Stirling,S12000030,Stirling,Local authority,Scotland,Scotland,True,False
+Local authority|UKM3102|West Dunbartonshire,UKM3102,West Dunbartonshire,Local authority,Scotland,Scotland,True,False
+Local authority|00QG|West Dunbartonshire,00QG,West Dunbartonshire,Local authority,Scotland,Scotland,True,False
+Local authority|S12000039|West Dunbartonshire,S12000039,West Dunbartonshire,Local authority,Scotland,Scotland,True,False
+Local authority|UKM2800|West Lothian,UKM2800,West Lothian,Local authority,Scotland,Scotland,True,False
+Local authority|00RH|West Lothian,00RH,West Lothian,Local authority,Scotland,Scotland,True,False
+Local authority|S12000040|West Lothian,S12000040,West Lothian,Local authority,Scotland,Scotland,True,False
+Local authority|UKH1401|Babergh,UKH1401,Babergh,Local authority,East,Unclassified,True,False
+Local authority|42UB|Babergh,42UB,Babergh,Local authority,East,Unclassified,True,False
+Local authority|E07000200|Babergh,E07000200,Babergh,Local authority,East,Unclassified,True,False
+Local authority|UKH3301|Basildon,UKH3301,Basildon,Local authority,East,Unclassified,True,False
+Local authority|22UB|Basildon,22UB,Basildon,Local authority,East,Unclassified,True,False
+Local authority|E07000066|Basildon,E07000066,Basildon,Local authority,East,Unclassified,True,False
+Local authority|UKH2203|Bedford,UKH2203,Bedford,Local authority,East,Unclassified,True,False
+Local authority|00KB|Bedford,00KB,Bedford,Local authority,East,Unclassified,True,False
+Local authority|E06000055|Bedford,E06000055,Bedford,Local authority,East,Unclassified,True,False
+Local authority|UKH3302|Braintree,UKH3302,Braintree,Local authority,East,Unclassified,True,False
+Local authority|22UC|Braintree,22UC,Braintree,Local authority,East,Unclassified,True,False
+Local authority|E07000067|Braintree,E07000067,Braintree,Local authority,East,Unclassified,True,False
+Local authority|UKH1301|Breckland,UKH1301,Breckland,Local authority,East,Unclassified,True,False
+Local authority|33UB|Breckland,33UB,Breckland,Local authority,East,Unclassified,True,False
+Local authority|E07000143|Breckland,E07000143,Breckland,Local authority,East,Unclassified,True,False
+Local authority|UKH3303|Brentwood,UKH3303,Brentwood,Local authority,East,Unclassified,True,False
+Local authority|22UD|Brentwood,22UD,Brentwood,Local authority,East,Unclassified,True,False
+Local authority|E07000068|Brentwood,E07000068,Brentwood,Local authority,East,Unclassified,True,False
+Local authority|UKH1302|Broadland,UKH1302,Broadland,Local authority,East,Unclassified,True,False
+Local authority|33UC|Broadland,33UC,Broadland,Local authority,East,Unclassified,True,False
+Local authority|E07000144|Broadland,E07000144,Broadland,Local authority,East,Unclassified,True,False
+Local authority|UKH2301|Broxbourne,UKH2301,Broxbourne,Local authority,East,Unclassified,True,False
+Local authority|26UB|Broxbourne,26UB,Broxbourne,Local authority,East,Unclassified,True,False
+Local authority|E07000095|Broxbourne,E07000095,Broxbourne,Local authority,East,Unclassified,True,False
+Local authority|UKH1201|Cambridge,UKH1201,Cambridge,Local authority,East,Unclassified,True,False
+Local authority|12UB|Cambridge,12UB,Cambridge,Local authority,East,Unclassified,True,False
+Local authority|E07000008|Cambridge,E07000008,Cambridge,Local authority,East,Unclassified,True,False
+Local authority|UKH3304|Castle Point,UKH3304,Castle Point,Local authority,East,Unclassified,True,False
+Local authority|22UE|Castle Point,22UE,Castle Point,Local authority,East,Unclassified,True,False
+Local authority|E07000069|Castle Point,E07000069,Castle Point,Local authority,East,Unclassified,True,False
+Local authority|00KC|Central Bedfordshire,00KC,Central Bedfordshire,Local authority,East,Unclassified,True,False
+Local authority|E06000056|Central Bedfordshire,E06000056,Central Bedfordshire,Local authority,East,Unclassified,True,False
+Local authority|UKH3305|Chelmsford,UKH3305,Chelmsford,Local authority,East,Unclassified,True,False
+Local authority|22UF|Chelmsford,22UF,Chelmsford,Local authority,East,Unclassified,True,False
+Local authority|E07000070|Chelmsford,E07000070,Chelmsford,Local authority,East,Unclassified,True,False
+Local authority|UKH3306|Colchester,UKH3306,Colchester,Local authority,East,Unclassified,True,False
+Local authority|22UG|Colchester,22UG,Colchester,Local authority,East,Unclassified,True,False
+Local authority|E07000071|Colchester,E07000071,Colchester,Local authority,East,Unclassified,True,False
+Local authority|UKH2302|Dacorum,UKH2302,Dacorum,Local authority,East,Unclassified,True,False
+Local authority|26UC|Dacorum,26UC,Dacorum,Local authority,East,Unclassified,True,False
+Local authority|E07000096|Dacorum,E07000096,Dacorum,Local authority,East,Unclassified,True,False
+Local authority|UKH1202|East Cambridgeshire,UKH1202,East Cambridgeshire,Local authority,East,Unclassified,True,False
+Local authority|12UC|East Cambridgeshire,12UC,East Cambridgeshire,Local authority,East,Unclassified,True,False
+Local authority|E07000009|East Cambridgeshire,E07000009,East Cambridgeshire,Local authority,East,Unclassified,True,False
+Local authority|UKH2303|East Hertfordshire,UKH2303,East Hertfordshire,Local authority,East,Unclassified,True,False
+Local authority|26UD|East Hertfordshire,26UD,East Hertfordshire,Local authority,East,Unclassified,True,False
+Local authority|E07000242|East Hertfordshire,E07000242,East Hertfordshire,Local authority,East,Unclassified,True,False
+Local authority|E07000244|East Suffolk,E07000244,East Suffolk,Local authority,East,Unclassified,True,False
+Local authority|UKH3307|Epping Forest,UKH3307,Epping Forest,Local authority,East,Unclassified,True,False
+Local authority|22UH|Epping Forest,22UH,Epping Forest,Local authority,East,Unclassified,True,False
+Local authority|E07000072|Epping Forest,E07000072,Epping Forest,Local authority,East,Unclassified,True,False
+Local authority|UKH1203|Fenland,UKH1203,Fenland,Local authority,East,Unclassified,True,False
+Local authority|12UD|Fenland,12UD,Fenland,Local authority,East,Unclassified,True,False
+Local authority|E07000010|Fenland,E07000010,Fenland,Local authority,East,Unclassified,True,False
+Local authority|UKH1402|Forest Heath,UKH1402,Forest Heath,Local authority,East,Unclassified,True,False
+Local authority|42UC|Forest Heath,42UC,Forest Heath,Local authority,East,Unclassified,True,False
+Local authority|E07000201|Forest Heath,E07000201,Forest Heath,Local authority,East,Unclassified,True,False
+Local authority|UKH1303|Great Yarmouth,UKH1303,Great Yarmouth,Local authority,East,Unclassified,True,False
+Local authority|33UD|Great Yarmouth,33UD,Great Yarmouth,Local authority,East,Unclassified,True,False
+Local authority|E07000145|Great Yarmouth,E07000145,Great Yarmouth,Local authority,East,Unclassified,True,False
+Local authority|UKH3308|Harlow,UKH3308,Harlow,Local authority,East,Unclassified,True,False
+Local authority|22UJ|Harlow,22UJ,Harlow,Local authority,East,Unclassified,True,False
+Local authority|E07000073|Harlow,E07000073,Harlow,Local authority,East,Unclassified,True,False
+Local authority|UKH2304|Hertsmere,UKH2304,Hertsmere,Local authority,East,Unclassified,True,False
+Local authority|26UE|Hertsmere,26UE,Hertsmere,Local authority,East,Unclassified,True,False
+Local authority|E07000098|Hertsmere,E07000098,Hertsmere,Local authority,East,Unclassified,True,False
+Local authority|UKH1204|Huntingdonshire,UKH1204,Huntingdonshire,Local authority,East,Unclassified,True,False
+Local authority|12UE|Huntingdonshire,12UE,Huntingdonshire,Local authority,East,Unclassified,True,False
+Local authority|E07000011|Huntingdonshire,E07000011,Huntingdonshire,Local authority,East,Unclassified,True,False
+Local authority|UKH1403|Ipswich,UKH1403,Ipswich,Local authority,East,Unclassified,True,False
+Local authority|42UD|Ipswich,42UD,Ipswich,Local authority,East,Unclassified,True,False
+Local authority|E07000202|Ipswich,E07000202,Ipswich,Local authority,East,Unclassified,True,False
+Local authority|UKH1308|King's Lynn and West Norfolk,UKH1308,King's Lynn and West Norfolk,Local authority,East,Unclassified,True,False
+Local authority|33UE|King's Lynn and West Norfolk,33UE,King's Lynn and West Norfolk,Local authority,East,Unclassified,True,False
+Local authority|E07000146|King's Lynn and West Norfolk,E07000146,King's Lynn and West Norfolk,Local authority,East,Unclassified,True,False
+Local authority|E07000146|King�s Lynn and West Norfolk,E07000146,King�s Lynn and West Norfolk,Local authority,East,Unclassified,True,False
+Local authority|UKH2100|Luton,UKH2100,Luton,Local authority,East,Unclassified,True,False
+Local authority|00KA|Luton,00KA,Luton,Local authority,East,Unclassified,True,False
+Local authority|E06000032|Luton,E06000032,Luton,Local authority,East,Unclassified,True,False
+Local authority|UKH3309|Maldon,UKH3309,Maldon,Local authority,East,Unclassified,True,False
+Local authority|22UK|Maldon,22UK,Maldon,Local authority,East,Unclassified,True,False
+Local authority|E07000074|Maldon,E07000074,Maldon,Local authority,East,Unclassified,True,False
+Local authority|UKH2202|Mid Bedfordshire,UKH2202,Mid Bedfordshire,Local authority,East,Unclassified,True,False
+Local authority|UKH1408|Mid Suffolk,UKH1408,Mid Suffolk,Local authority,East,Unclassified,True,False
+Local authority|42UE|Mid Suffolk,42UE,Mid Suffolk,Local authority,East,Unclassified,True,False
+Local authority|E07000203|Mid Suffolk,E07000203,Mid Suffolk,Local authority,East,Unclassified,True,False
+Local authority|UKH2305|North Hertfordshire,UKH2305,North Hertfordshire,Local authority,East,Unclassified,True,False
+Local authority|26UF|North Hertfordshire,26UF,North Hertfordshire,Local authority,East,Unclassified,True,False
+Local authority|E07000099|North Hertfordshire,E07000099,North Hertfordshire,Local authority,East,Unclassified,True,False
+Local authority|UKH1305|North Norfolk,UKH1305,North Norfolk,Local authority,East,Unclassified,True,False
+Local authority|33UF|North Norfolk,33UF,North Norfolk,Local authority,East,Unclassified,True,False
+Local authority|E07000147|North Norfolk,E07000147,North Norfolk,Local authority,East,Unclassified,True,False
+Local authority|UKH1306|Norwich,UKH1306,Norwich,Local authority,East,Unclassified,True,False
+Local authority|33UG|Norwich,33UG,Norwich,Local authority,East,Unclassified,True,False
+Local authority|E07000148|Norwich,E07000148,Norwich,Local authority,East,Unclassified,True,False
+Local authority|UKH1100|Peterborough,UKH1100,Peterborough,Local authority,East,Unclassified,True,False
+Local authority|00JA|Peterborough,00JA,Peterborough,Local authority,East,Unclassified,True,False
+Local authority|E06000031|Peterborough,E06000031,Peterborough,Local authority,East,Unclassified,True,False
+Local authority|UKH3310|Rochford,UKH3310,Rochford,Local authority,East,Unclassified,True,False
+Local authority|22UL|Rochford,22UL,Rochford,Local authority,East,Unclassified,True,False
+Local authority|E07000075|Rochford,E07000075,Rochford,Local authority,East,Unclassified,True,False
+Local authority|UKH2204|South Bedfordshire,UKH2204,South Bedfordshire,Local authority,East,Unclassified,True,False
+Local authority|UKH1205|South Cambridgeshire,UKH1205,South Cambridgeshire,Local authority,East,Unclassified,True,False
+Local authority|12UG|South Cambridgeshire,12UG,South Cambridgeshire,Local authority,East,Unclassified,True,False
+Local authority|E07000012|South Cambridgeshire,E07000012,South Cambridgeshire,Local authority,East,Unclassified,True,False
+Local authority|UKH1309|South Norfolk,UKH1309,South Norfolk,Local authority,East,Unclassified,True,False
+Local authority|33UH|South Norfolk,33UH,South Norfolk,Local authority,East,Unclassified,True,False
+Local authority|E07000149|South Norfolk,E07000149,South Norfolk,Local authority,East,Unclassified,True,False
+Local authority|UKH3100|Southend-on-Sea,UKH3100,Southend-on-Sea,Local authority,East,Unclassified,True,False
+Local authority|00KF|Southend-on-Sea,00KF,Southend-on-Sea,Local authority,East,Unclassified,True,False
+Local authority|E06000033|Southend-on-Sea,E06000033,Southend-on-Sea,Local authority,East,Unclassified,True,False
+Local authority|UKH2306|St Albans,UKH2306,St Albans,Local authority,East,Unclassified,True,False
+Local authority|26UG|St Albans,26UG,St Albans,Local authority,East,Unclassified,True,False
+Local authority|E07000240|St Albans,E07000240,St Albans,Local authority,East,Unclassified,True,False
+Local authority|UKH1409|St Edmundsbury,UKH1409,St Edmundsbury,Local authority,East,Unclassified,True,False
+Local authority|42UF|St Edmundsbury,42UF,St Edmundsbury,Local authority,East,Unclassified,True,False
+Local authority|E07000204|St Edmundsbury,E07000204,St Edmundsbury,Local authority,East,Unclassified,True,False
+Local authority|UKH2307|Stevenage,UKH2307,Stevenage,Local authority,East,Unclassified,True,False
+Local authority|26UH|Stevenage,26UH,Stevenage,Local authority,East,Unclassified,True,False
+Local authority|E07000243|Stevenage,E07000243,Stevenage,Local authority,East,Unclassified,True,False
+Local authority|UKH1406|Suffolk Coastal,UKH1406,Suffolk Coastal,Local authority,East,Unclassified,True,False
+Local authority|42UG|Suffolk Coastal,42UG,Suffolk Coastal,Local authority,East,Unclassified,True,False
+Local authority|E07000205|Suffolk Coastal,E07000205,Suffolk Coastal,Local authority,East,Unclassified,True,False
+Local authority|UKH3311|Tendring,UKH3311,Tendring,Local authority,East,Unclassified,True,False
+Local authority|22UN|Tendring,22UN,Tendring,Local authority,East,Unclassified,True,False
+Local authority|E07000076|Tendring,E07000076,Tendring,Local authority,East,Unclassified,True,False
+Local authority|UKH2308|Three Rivers,UKH2308,Three Rivers,Local authority,East,Unclassified,True,False
+Local authority|26UJ|Three Rivers,26UJ,Three Rivers,Local authority,East,Unclassified,True,False
+Local authority|E07000102|Three Rivers,E07000102,Three Rivers,Local authority,East,Unclassified,True,False
+Local authority|UKH3200|Thurrock,UKH3200,Thurrock,Local authority,East,Unclassified,True,False
+Local authority|00KG|Thurrock,00KG,Thurrock,Local authority,East,Unclassified,True,False
+Local authority|E06000034|Thurrock,E06000034,Thurrock,Local authority,East,Unclassified,True,False
+Local authority|UKH3312|Uttlesford,UKH3312,Uttlesford,Local authority,East,Unclassified,True,False
+Local authority|22UQ|Uttlesford,22UQ,Uttlesford,Local authority,East,Unclassified,True,False
+Local authority|E07000077|Uttlesford,E07000077,Uttlesford,Local authority,East,Unclassified,True,False
+Local authority|UKH2309|Watford,UKH2309,Watford,Local authority,East,Unclassified,True,False
+Local authority|26UK|Watford,26UK,Watford,Local authority,East,Unclassified,True,False
+Local authority|E07000103|Watford,E07000103,Watford,Local authority,East,Unclassified,True,False
+Local authority|UKH1407|Waveney,UKH1407,Waveney,Local authority,East,Unclassified,True,False
+Local authority|42UH|Waveney,42UH,Waveney,Local authority,East,Unclassified,True,False
+Local authority|E07000206|Waveney,E07000206,Waveney,Local authority,East,Unclassified,True,False
+Local authority|UKH2310|Welwyn Hatfield,UKH2310,Welwyn Hatfield,Local authority,East,Unclassified,True,False
+Local authority|26UL|Welwyn Hatfield,26UL,Welwyn Hatfield,Local authority,East,Unclassified,True,False
+Local authority|E07000241|Welwyn Hatfield,E07000241,Welwyn Hatfield,Local authority,East,Unclassified,True,False
+Local authority|E07000245|West Suffolk,E07000245,West Suffolk,Local authority,East,Unclassified,True,False
+Local authority|UKL1605|Blaenau Gwent,UKL1605,Blaenau Gwent,Local authority,Wales,Wales,True,False
+Local authority|00PL|Blaenau Gwent,00PL,Blaenau Gwent,Local authority,Wales,Wales,True,False
+Local authority|W06000019|Blaenau Gwent,W06000019,Blaenau Gwent,Local authority,Wales,Wales,True,False
+Local authority|W06000019|Blaenau Gwent / Blaenau Gwent,W06000019,Blaenau Gwent / Blaenau Gwent,Local authority,Wales,Wales,True,False
+Local authority|UKL1504|Blaenau Gwent / Blaenau Gwent,UKL1504,Blaenau Gwent / Blaenau Gwent,Local authority,Wales,Wales,True,False
+Local authority|00PH|Blaenau Gwent / Blaenau Gwent,00PH,Blaenau Gwent / Blaenau Gwent,Local authority,Wales,Wales,True,False
+Local authority|W06000024|Blaenau Gwent / Blaenau Gwent,W06000024,Blaenau Gwent / Blaenau Gwent,Local authority,Wales,Wales,True,False
+Local authority|UKL1705|Bridgend,UKL1705,Bridgend,Local authority,Wales,Wales,True,False
+Local authority|00PB|Bridgend,00PB,Bridgend,Local authority,Wales,Wales,True,False
+Local authority|W06000013|Bridgend,W06000013,Bridgend,Local authority,Wales,Wales,True,False
+Local authority|W06000013|Bridgend / Pen-y-bont ar Ogwr,W06000013,Bridgend / Pen-y-bont ar Ogwr,Local authority,Wales,Wales,True,False
+Local authority|UKL1706|Bridgend / Pen-y-bont ar Ogwr,UKL1706,Bridgend / Pen-y-bont ar Ogwr,Local authority,Wales,Wales,True,False
+Local authority|00NZ|Bridgend / Pen-y-bont ar Ogwr,00NZ,Bridgend / Pen-y-bont ar Ogwr,Local authority,Wales,Wales,True,False
+Local authority|W06000012|Bridgend / Pen-y-bont ar Ogwr,W06000012,Bridgend / Pen-y-bont ar Ogwr,Local authority,Wales,Wales,True,False
+Local authority|UKL1604|Caerphilly,UKL1604,Caerphilly,Local authority,Wales,Wales,True,False
+Local authority|00PK|Caerphilly,00PK,Caerphilly,Local authority,Wales,Wales,True,False
+Local authority|W06000018|Caerphilly,W06000018,Caerphilly,Local authority,Wales,Wales,True,False
+Local authority|W06000018|Caerphilly / Caerffili,W06000018,Caerphilly / Caerffili,Local authority,Wales,Wales,True,False
+Local authority|UKL1503|Caerphilly / Caerffili,UKL1503,Caerphilly / Caerffili,Local authority,Wales,Wales,True,False
+Local authority|00PF|Caerphilly / Caerffili,00PF,Caerphilly / Caerffili,Local authority,Wales,Wales,True,False
+Local authority|W06000016|Caerphilly / Caerffili,W06000016,Caerphilly / Caerffili,Local authority,Wales,Wales,True,False
+Local authority|UKL2207|Cardiff,UKL2207,Cardiff,Local authority,Wales,Wales,True,False
+Local authority|00PT|Cardiff,00PT,Cardiff,Local authority,Wales,Wales,True,False
+Local authority|W06000015|Cardiff,W06000015,Cardiff,Local authority,Wales,Wales,True,False
+Local authority|W06000015|Cardiff / Caerdydd,W06000015,Cardiff / Caerdydd,Local authority,Wales,Wales,True,False
+Local authority|UKL2206|Cardiff / Caerdydd,UKL2206,Cardiff / Caerdydd,Local authority,Wales,Wales,True,False
+Local authority|00PD|Cardiff / Caerdydd,00PD,Cardiff / Caerdydd,Local authority,Wales,Wales,True,False
+Local authority|W06000014|Cardiff / Caerdydd,W06000014,Cardiff / Caerdydd,Local authority,Wales,Wales,True,False
+Local authority|UKL1409|Carmarthenshire,UKL1409,Carmarthenshire,Local authority,Wales,Wales,True,False
+Local authority|00NU|Carmarthenshire,00NU,Carmarthenshire,Local authority,Wales,Wales,True,False
+Local authority|W06000010|Carmarthenshire,W06000010,Carmarthenshire,Local authority,Wales,Wales,True,False
+Local authority|W06000010|Carmarthenshire / Sir Gaerfyrddin,W06000010,Carmarthenshire / Sir Gaerfyrddin,Local authority,Wales,Wales,True,False
+Local authority|UKL1408|Carmarthenshire / Sir Gaerfyrddin,UKL1408,Carmarthenshire / Sir Gaerfyrddin,Local authority,Wales,Wales,True,False
+Local authority|00NS|Carmarthenshire / Sir Gaerfyrddin,00NS,Carmarthenshire / Sir Gaerfyrddin,Local authority,Wales,Wales,True,False
+Local authority|W06000009|Carmarthenshire / Sir Gaerfyrddin,W06000009,Carmarthenshire / Sir Gaerfyrddin,Local authority,Wales,Wales,True,False
+Local authority|UKL1407|Ceredigion,UKL1407,Ceredigion,Local authority,Wales,Wales,True,False
+Local authority|00NQ|Ceredigion,00NQ,Ceredigion,Local authority,Wales,Wales,True,False
+Local authority|W06000008|Ceredigion,W06000008,Ceredigion,Local authority,Wales,Wales,True,False
+Local authority|W06000008|Ceredigion / Ceredigion,W06000008,Ceredigion / Ceredigion,Local authority,Wales,Wales,True,False
+Local authority|UKL2400|Ceredigion / Ceredigion,UKL2400,Ceredigion / Ceredigion,Local authority,Wales,Wales,True,False
+Local authority|00NN|Ceredigion / Ceredigion,00NN,Ceredigion / Ceredigion,Local authority,Wales,Wales,True,False
+Local authority|W06000023|Ceredigion / Ceredigion,W06000023,Ceredigion / Ceredigion,Local authority,Wales,Wales,True,False
+Local authority|UKL1304|Conwy,UKL1304,Conwy,Local authority,Wales,Wales,True,False
+Local authority|00NE|Conwy,00NE,Conwy,Local authority,Wales,Wales,True,False
+Local authority|W06000003|Conwy,W06000003,Conwy,Local authority,Wales,Wales,True,False
+Local authority|W06000003|Conwy / Conwy,W06000003,Conwy / Conwy,Local authority,Wales,Wales,True,False
+Local authority|UKL1304|Conwy / Conwy,UKL1304,Conwy / Conwy,Local authority,Wales,Wales,True,False
+Local authority|00NE|Conwy / Conwy,00NE,Conwy / Conwy,Local authority,Wales,Wales,True,False
+Local authority|UKL1305|Denbighshire,UKL1305,Denbighshire,Local authority,Wales,Wales,True,False
+Local authority|00NG|Denbighshire,00NG,Denbighshire,Local authority,Wales,Wales,True,False
+Local authority|W06000004|Denbighshire,W06000004,Denbighshire,Local authority,Wales,Wales,True,False
+Local authority|W06000004|Denbighshire / Sir Ddinbych,W06000004,Denbighshire / Sir Ddinbych,Local authority,Wales,Wales,True,False
+Local authority|UKL1305|Denbighshire / Sir Ddinbych,UKL1305,Denbighshire / Sir Ddinbych,Local authority,Wales,Wales,True,False
+Local authority|00NG|Denbighshire / Sir Ddinbych,00NG,Denbighshire / Sir Ddinbych,Local authority,Wales,Wales,True,False
+Local authority|UKL2304|Flintshire,UKL2304,Flintshire,Local authority,Wales,Wales,True,False
+Local authority|00NJ|Flintshire,00NJ,Flintshire,Local authority,Wales,Wales,True,False
+Local authority|W06000005|Flintshire,W06000005,Flintshire,Local authority,Wales,Wales,True,False
+Local authority|W06000005|Flintshire / Sir y Fflint,W06000005,Flintshire / Sir y Fflint,Local authority,Wales,Wales,True,False
+Local authority|UKL2304|Flintshire / Sir y Fflint,UKL2304,Flintshire / Sir y Fflint,Local authority,Wales,Wales,True,False
+Local authority|00NJ|Flintshire / Sir y Fflint,00NJ,Flintshire / Sir y Fflint,Local authority,Wales,Wales,True,False
+Local authority|UKL1200|Gwynedd,UKL1200,Gwynedd,Local authority,Wales,Wales,True,False
+Local authority|00NC|Gwynedd,00NC,Gwynedd,Local authority,Wales,Wales,True,False
+Local authority|W06000002|Gwynedd,W06000002,Gwynedd,Local authority,Wales,Wales,True,False
+Local authority|W06000002|Gwynedd / Gwynedd,W06000002,Gwynedd / Gwynedd,Local authority,Wales,Wales,True,False
+Local authority|UKL1200|Gwynedd / Gwynedd,UKL1200,Gwynedd / Gwynedd,Local authority,Wales,Wales,True,False
+Local authority|00NC|Gwynedd / Gwynedd,00NC,Gwynedd / Gwynedd,Local authority,Wales,Wales,True,False
+Local authority|UKL1100|Isle of Anglesey,UKL1100,Isle of Anglesey,Local authority,Wales,Wales,True,False
+Local authority|00NA|Isle of Anglesey,00NA,Isle of Anglesey,Local authority,Wales,Wales,True,False
+Local authority|W06000001|Isle of Anglesey,W06000001,Isle of Anglesey,Local authority,Wales,Wales,True,False
+Local authority|W06000001|Isle of Anglesey / Ynys M�n,W06000001,Isle of Anglesey / Ynys M�n,Local authority,Wales,Wales,True,False
+Local authority|UKL1100|Isle of Anglesey / Ynys M�n,UKL1100,Isle of Anglesey / Ynys M�n,Local authority,Wales,Wales,True,False
+Local authority|00NA|Isle of Anglesey / Ynys M�n,00NA,Isle of Anglesey / Ynys M�n,Local authority,Wales,Wales,True,False
+Local authority|UKL1504|Merthyr Tydfil,UKL1504,Merthyr Tydfil,Local authority,Wales,Wales,True,False
+Local authority|00PH|Merthyr Tydfil,00PH,Merthyr Tydfil,Local authority,Wales,Wales,True,False
+Local authority|W06000024|Merthyr Tydfil,W06000024,Merthyr Tydfil,Local authority,Wales,Wales,True,False
+Local authority|W06000024|Merthyr Tydfil / Merthyr Tudful,W06000024,Merthyr Tydfil / Merthyr Tudful,Local authority,Wales,Wales,True,False
+Local authority|UKL2104|Merthyr Tydfil / Merthyr Tudful,UKL2104,Merthyr Tydfil / Merthyr Tudful,Local authority,Wales,Wales,True,False
+Local authority|00PR|Merthyr Tydfil / Merthyr Tudful,00PR,Merthyr Tydfil / Merthyr Tudful,Local authority,Wales,Wales,True,False
+Local authority|W06000022|Merthyr Tydfil / Merthyr Tudful,W06000022,Merthyr Tydfil / Merthyr Tudful,Local authority,Wales,Wales,True,False
+Local authority|UKL2103|Monmouthshire,UKL2103,Monmouthshire,Local authority,Wales,Wales,True,False
+Local authority|00PP|Monmouthshire,00PP,Monmouthshire,Local authority,Wales,Wales,True,False
+Local authority|W06000021|Monmouthshire,W06000021,Monmouthshire,Local authority,Wales,Wales,True,False
+Local authority|W06000021|Monmouthshire / Sir Fynwy,W06000021,Monmouthshire / Sir Fynwy,Local authority,Wales,Wales,True,False
+Local authority|UKL1605|Monmouthshire / Sir Fynwy,UKL1605,Monmouthshire / Sir Fynwy,Local authority,Wales,Wales,True,False
+Local authority|00PL|Monmouthshire / Sir Fynwy,00PL,Monmouthshire / Sir Fynwy,Local authority,Wales,Wales,True,False
+Local authority|W06000019|Monmouthshire / Sir Fynwy,W06000019,Monmouthshire / Sir Fynwy,Local authority,Wales,Wales,True,False
+Local authority|UKL1706|Neath Port Talbot,UKL1706,Neath Port Talbot,Local authority,Wales,Wales,True,False
+Local authority|00NZ|Neath Port Talbot,00NZ,Neath Port Talbot,Local authority,Wales,Wales,True,False
+Local authority|W06000012|Neath Port Talbot,W06000012,Neath Port Talbot,Local authority,Wales,Wales,True,False
+Local authority|W06000012|Neath Port Talbot / Castell-nedd Port Talbot,W06000012,Neath Port Talbot / Castell-nedd Port Talbot,Local authority,Wales,Wales,True,False
+Local authority|UKL1800|Neath Port Talbot / Castell-nedd Port Talbot,UKL1800,Neath Port Talbot / Castell-nedd Port Talbot,Local authority,Wales,Wales,True,False
+Local authority|00NX|Neath Port Talbot / Castell-nedd Port Talbot,00NX,Neath Port Talbot / Castell-nedd Port Talbot,Local authority,Wales,Wales,True,False
+Local authority|W06000011|Neath Port Talbot / Castell-nedd Port Talbot,W06000011,Neath Port Talbot / Castell-nedd Port Talbot,Local authority,Wales,Wales,True,False
+Local authority|UKL2104|Newport,UKL2104,Newport,Local authority,Wales,Wales,True,False
+Local authority|00PR|Newport,00PR,Newport,Local authority,Wales,Wales,True,False
+Local authority|W06000022|Newport,W06000022,Newport,Local authority,Wales,Wales,True,False
+Local authority|W06000022|Newport / Casnewydd,W06000022,Newport / Casnewydd,Local authority,Wales,Wales,True,False
+Local authority|UKL1606|Newport / Casnewydd,UKL1606,Newport / Casnewydd,Local authority,Wales,Wales,True,False
+Local authority|00PM|Newport / Casnewydd,00PM,Newport / Casnewydd,Local authority,Wales,Wales,True,False
+Local authority|W06000020|Newport / Casnewydd,W06000020,Newport / Casnewydd,Local authority,Wales,Wales,True,False
+Local authority|UKL1408|Pembrokeshire,UKL1408,Pembrokeshire,Local authority,Wales,Wales,True,False
+Local authority|00NS|Pembrokeshire,00NS,Pembrokeshire,Local authority,Wales,Wales,True,False
+Local authority|W06000009|Pembrokeshire,W06000009,Pembrokeshire,Local authority,Wales,Wales,True,False
+Local authority|W06000009|Pembrokeshire / Sir Benfro,W06000009,Pembrokeshire / Sir Benfro,Local authority,Wales,Wales,True,False
+Local authority|UKL1407|Pembrokeshire / Sir Benfro,UKL1407,Pembrokeshire / Sir Benfro,Local authority,Wales,Wales,True,False
+Local authority|00NQ|Pembrokeshire / Sir Benfro,00NQ,Pembrokeshire / Sir Benfro,Local authority,Wales,Wales,True,False
+Local authority|W06000008|Pembrokeshire / Sir Benfro,W06000008,Pembrokeshire / Sir Benfro,Local authority,Wales,Wales,True,False
+Local authority|UKL2400|Powys,UKL2400,Powys,Local authority,Wales,Wales,True,False
+Local authority|00NN|Powys,00NN,Powys,Local authority,Wales,Wales,True,False
+Local authority|W06000023|Powys,W06000023,Powys,Local authority,Wales,Wales,True,False
+Local authority|W06000023|Powys / Powys,W06000023,Powys / Powys,Local authority,Wales,Wales,True,False
+Local authority|UKL2103|Powys / Powys,UKL2103,Powys / Powys,Local authority,Wales,Wales,True,False
+Local authority|00PP|Powys / Powys,00PP,Powys / Powys,Local authority,Wales,Wales,True,False
+Local authority|W06000021|Powys / Powys,W06000021,Powys / Powys,Local authority,Wales,Wales,True,False
+Local authority|UKL1503|Rhondda Cynon Taf,UKL1503,Rhondda Cynon Taf,Local authority,Wales,Wales,True,False
+Local authority|00PF|Rhondda Cynon Taf,00PF,Rhondda Cynon Taf,Local authority,Wales,Wales,True,False
+Local authority|W06000016|Rhondda Cynon Taf,W06000016,Rhondda Cynon Taf,Local authority,Wales,Wales,True,False
+Local authority|W06000016|Rhondda Cynon Taf / Rhondda Cynon Taf,W06000016,Rhondda Cynon Taf / Rhondda Cynon Taf,Local authority,Wales,Wales,True,False
+Local authority|UKL2207|Rhondda Cynon Taf / Rhondda Cynon Taf,UKL2207,Rhondda Cynon Taf / Rhondda Cynon Taf,Local authority,Wales,Wales,True,False
+Local authority|00PT|Rhondda Cynon Taf / Rhondda Cynon Taf,00PT,Rhondda Cynon Taf / Rhondda Cynon Taf,Local authority,Wales,Wales,True,False
+Local authority|W06000015|Rhondda Cynon Taf / Rhondda Cynon Taf,W06000015,Rhondda Cynon Taf / Rhondda Cynon Taf,Local authority,Wales,Wales,True,False
+Local authority|UKL1800|Swansea,UKL1800,Swansea,Local authority,Wales,Wales,True,False
+Local authority|00NX|Swansea,00NX,Swansea,Local authority,Wales,Wales,True,False
+Local authority|W06000011|Swansea,W06000011,Swansea,Local authority,Wales,Wales,True,False
+Local authority|W06000011|Swansea / Abertawe,W06000011,Swansea / Abertawe,Local authority,Wales,Wales,True,False
+Local authority|UKL1409|Swansea / Abertawe,UKL1409,Swansea / Abertawe,Local authority,Wales,Wales,True,False
+Local authority|00NU|Swansea / Abertawe,00NU,Swansea / Abertawe,Local authority,Wales,Wales,True,False
+Local authority|W06000010|Swansea / Abertawe,W06000010,Swansea / Abertawe,Local authority,Wales,Wales,True,False
+Local authority|UKL1606|Torfaen,UKL1606,Torfaen,Local authority,Wales,Wales,True,False
+Local authority|00PM|Torfaen,00PM,Torfaen,Local authority,Wales,Wales,True,False
+Local authority|W06000020|Torfaen,W06000020,Torfaen,Local authority,Wales,Wales,True,False
+Local authority|W06000020|Torfaen / Torfaen,W06000020,Torfaen / Torfaen,Local authority,Wales,Wales,True,False
+Local authority|UKL1604|Torfaen / Torfaen,UKL1604,Torfaen / Torfaen,Local authority,Wales,Wales,True,False
+Local authority|00PK|Torfaen / Torfaen,00PK,Torfaen / Torfaen,Local authority,Wales,Wales,True,False
+Local authority|W06000018|Torfaen / Torfaen,W06000018,Torfaen / Torfaen,Local authority,Wales,Wales,True,False
+Local authority|UKL2206|Vale of Glamorgan,UKL2206,Vale of Glamorgan,Local authority,Wales,Wales,True,False
+Local authority|00PD|Vale of Glamorgan,00PD,Vale of Glamorgan,Local authority,Wales,Wales,True,False
+Local authority|W06000014|Vale of Glamorgan,W06000014,Vale of Glamorgan,Local authority,Wales,Wales,True,False
+Local authority|W06000014|Vale of Glamorgan / Bro Morgannwg,W06000014,Vale of Glamorgan / Bro Morgannwg,Local authority,Wales,Wales,True,False
+Local authority|UKL1705|Vale of Glamorgan / Bro Morgannwg,UKL1705,Vale of Glamorgan / Bro Morgannwg,Local authority,Wales,Wales,True,False
+Local authority|00PB|Vale of Glamorgan / Bro Morgannwg,00PB,Vale of Glamorgan / Bro Morgannwg,Local authority,Wales,Wales,True,False
+Local authority|W06000013|Vale of Glamorgan / Bro Morgannwg,W06000013,Vale of Glamorgan / Bro Morgannwg,Local authority,Wales,Wales,True,False
+Local authority|UKL2305|Wrexham,UKL2305,Wrexham,Local authority,Wales,Wales,True,False
+Local authority|00NL|Wrexham,00NL,Wrexham,Local authority,Wales,Wales,True,False
+Local authority|W06000006|Wrexham,W06000006,Wrexham,Local authority,Wales,Wales,True,False
+Local authority|W06000006|Wrexham / Wrecsam,W06000006,Wrexham / Wrecsam,Local authority,Wales,Wales,True,False
+Local authority|UKL2305|Wrexham / Wrecsam,UKL2305,Wrexham / Wrecsam,Local authority,Wales,Wales,True,False
+Local authority|00NL|Wrexham / Wrecsam,00NL,Wrexham / Wrecsam,Local authority,Wales,Wales,True,False
+Region|E12000004|East Midlands,E12000004,East Midlands,Region,East Midlands,England,False,True
+Region|E12000007|London,E12000007,London,Region,London,England,False,True
+Region|E12000001|North East,E12000001,North East,Region,North East,England,False,True
+Region|E12000002|North West,E12000002,North West,Region,North West,England,False,True
+Region|E12000008|South East,E12000008,South East,Region,South East,England,False,True
+Region|E12000009|South West,E12000009,South West,Region,South West,England,False,True
+Region|E12000005|West Midlands,E12000005,West Midlands,Region,West Midlands,England,False,True
+Region|E12000003|Yorkshire and The Humber,E12000003,Yorkshire and The Humber,Region,Yorkshire and The Humber,England,False,True
+Region|E12000006|East,E12000006,East,Region,East,Unclassified,False,True
+Region|K04000001|England and Wales (inc unallocated),K04000001,England and Wales (inc unallocated),Region,England and Wales (inc unallocated),Unclassified,False,True
+Region|Unallocated England and Wales|England and Wales (unallocated),Unallocated England and Wales,England and Wales (unallocated),Region,England and Wales (unallocated),Unclassified,False,True
+Region|Unallocated Great Britain|Great Britain (unallocated),Unallocated Great Britain,Great Britain (unallocated),Region,Great Britain (unallocated),Unclassified,False,True
+Region|E13000001|Inner London,E13000001,Inner London,Region,Inner London,Unclassified,False,True
+Region|E13000002|Outer London,E13000002,Outer London,Region,Outer London,Unclassified,False,True
+Region|S92000003|Scotland (inc unallocated),S92000003,Scotland (inc unallocated),Region,Scotland (inc unallocated),Unclassified,False,True
+Region|Unallocated Scotland|Scotland (unallocated),Unallocated Scotland,Scotland (unallocated),Region,Scotland (unallocated),Unclassified,False,True
+Region|Unallocated|Unallocated,Unallocated,Unallocated,Region,Unallocated,Unclassified,False,True

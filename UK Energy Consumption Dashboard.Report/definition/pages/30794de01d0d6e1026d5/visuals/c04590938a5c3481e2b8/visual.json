@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "c04590938a5c3481e2b8",
+  "position": {
+    "x": 53.19587628865979,
+    "y": 97.731958762886592,
+    "z": 25000,
+    "height": 145.97938144329896,
+    "width": 160.82474226804123,
+    "tabOrder": 24000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Use country, fuel, and sector filters to surface local authorities with unusually high consumption, rapid change, or a disproportionate share of national demand.",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#d8e6e2"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

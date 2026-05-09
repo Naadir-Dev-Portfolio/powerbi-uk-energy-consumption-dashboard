@@ -1,0 +1,40 @@
+relationship 'Fact Energy Consumption to Dim Date'
+	fromColumn: 'Fact Energy Consumption'.YearKey
+	toColumn: 'Dim Date'.YearKey
+
+relationship 'Fact Energy Consumption to Dim Geography'
+	fromColumn: 'Fact Energy Consumption'.GeographyKey
+	toColumn: 'Dim Geography'.GeographyKey
+
+relationship 'Fact Energy Consumption to Dim Fuel'
+	fromColumn: 'Fact Energy Consumption'.Fuel
+	toColumn: 'Dim Fuel'.Fuel
+
+relationship 'Fact Energy Consumption to Dim Sector'
+	fromColumn: 'Fact Energy Consumption'.Sector
+	toColumn: 'Dim Sector'.Sector
+
+relationship 'Fact Electricity Profile to Dim Date'
+	fromColumn: 'Fact Electricity Profile'.YearKey
+	toColumn: 'Dim Date'.YearKey
+
+relationship 'Fact Electricity Profile to Dim Geography'
+	fromColumn: 'Fact Electricity Profile'.GeographyKey
+	toColumn: 'Dim Geography'.GeographyKey
+
+relationship 'Fact Electricity Profile to Dim Electricity Profile'
+	fromColumn: 'Fact Electricity Profile'.ElectricityProfile
+	toColumn: 'Dim Electricity Profile'.ElectricityProfile
+
+relationship 'Latest Snapshot to Dim Date'
+	fromColumn: 'Latest Snapshot'.YearKey
+	toColumn: 'Dim Date'.YearKey
+
+relationship 'Latest Snapshot to Dim Geography'
+	fromColumn: 'Latest Snapshot'.GeographyKey
+	toColumn: 'Dim Geography'.GeographyKey
+
+relationship 'Latest Snapshot to Dim Fuel'
+	fromColumn: 'Latest Snapshot'.Fuel
+	toColumn: 'Dim Fuel'.Fuel
+
