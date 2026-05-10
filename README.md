@@ -8,6 +8,8 @@
 
 <p>Built for analysts, policy teams, and portfolio reviewers who need a clear view of sub-national UK energy demand using official public data.</p>
 
+<p><strong>Technical documentation:</strong> <a href="https://naadir-dev-portfolio.github.io/powerbi-uk-energy-consumption-dashboard/">View the published report documentation</a></p>
+
 <p>
   <a href="#overview">Overview</a> |
   <a href="#what-problem-it-solves">What It Solves</a> |
