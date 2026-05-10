@@ -7,8 +7,8 @@
   "imgFeatured": "powerbi-uk-energy-consumption-dashboard-featured.png",
   "desc": "Energy analytics dashboard using official DESNZ sub-national data to analyse UK electricity and gas consumption by region and local authority, and track whether patterns suggest structural change.",
   "demo": "https://app.powerbi.com/view?r=eyJrIjoiNGFmMWNlNmUtNTU0ZS00MDhhLWI1ZjgtMWZhZDA5MWQ5ZjA5IiwidCI6IjFmMjM5NGIwLWJiZmUtNDZlYS04MDIyLTFhZjJiZjg4ZDBkZCJ9",
-  "code": "https://github.com/Naadir-Dev-Portfolio/powerbi-uk-energy-consumption-dashboard",
-  "details": "https://github.com/Naadir-Dev-Portfolio/powerbi-uk-energy-consumption-dashboard/blob/main/README.md",
+  "code": "https://github.com/Naadir-Dev-Portfolio/powerbi-uk-energy-consumption-dashboard/blob/main/README.md",
+  "details": "https://naadir-dev-portfolio.github.io/powerbi-uk-energy-consumption-dashboard/",
   "tags": [
     "Power BI",
     "DAX",
